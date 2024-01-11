@@ -3,6 +3,7 @@ import { AppContextProvider } from "../context/AppContextProvider";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import IframePopup from "./components/iframePopup";
+import ResponsiblePopup from "./components/responsiblePopup";
 import "./global.scss";
 
 const locales = ["en-us", "zh-cn", "th-th", "ms-ms"];
@@ -55,6 +56,7 @@ export default async function LocaleLayout({ children, params: { locale } }) {
           {children}
           <Footer />
           <IframePopup />
+          <ResponsiblePopup />
         </AppContextProvider>
       </body>
     </html>

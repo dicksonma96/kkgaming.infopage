@@ -1,64 +1,95 @@
 {
   "home": {
-    "title": "MegaH5: Play To Believe | ",
+    "title": "KK GAMING",
     "description": "Best Classic Online Slot Game.",
-    "how-to-des1": "Instantly load and play with",
-    "how-to-des2": "For more info, check out our video! Dont't miss out! Click, load, and play now!",
     "banner": {
-      "banner1": "IS A GAME PROVIDER THAT SPECIALLY TARGETS MOBILE PHONE PLAYERS."
+      "banner1": "是一家专注于手机游戏玩家的游戏提供商。"
     },
     "about-us": {
-      "title": "ABOUT US",
-      "desc": "KK GAMING is a game provider that focuses on mobile phone gamers. We are committed to transforming the gamification of mobile apps with our innovative and customized game solutions. Our games redefined the bar for cutting-edge entertainment with stunning graphics and gameplay."
+      "title": "关于我们",
+      "desc": "是一家专注于手机游戏玩家的游戏提供商。我们致力于通过创新和定制的游戏解决方案改变移动应用的游戏化。我们的游戏以令人惊叹的图形和游戏性重新定义了尖端娱乐的标准。"
     },
     "feature": {
-      "title": "FEATURE",
-      "feature1": "BUY \n FEATURE",
-      "feature2": "IN GAME \n REWARD",
-      "feature3": "JACKPOT AND \n RED PACKET",
-      "feature4": "SEASONAL \n EVENT"
+      "title": "特点",
+      "feature1": "购买功能",
+      "feature2": "游戏内奖励",
+      "feature3": "奖池和红包",
+      "feature4": "季节性活动"
     },
     "vision-mission": {
-      "vision": "OUR VISION",
-      "vision-desc": "Our vision is to revolutionize mobile app gamification with our gaming solutions. We strive to set a new standard for unrivaled entertainment, offering breathtaking visuals and captivating gameplay that immerse and thrill mobile slot players.",
-      "mission": "OUR MISSION",
-      "mission-desc": "Our mission is to create exceptional games that deliver pure excitement and joy to players, making us a top choice in the industry."
+      "vision": "我们的愿景",
+      "vision-desc": "我们的愿景",
+      "mission": "我们的使命",
+      "mission-desc": "我们的使命是创造出卓越的游戏，为玩家带来纯粹的兴奋和快乐，使我们成为行业中的首选。"
     },
     "why-our-brand": {
-      "title": "WHY OUR BRAND",
-      "brand1-desc": "Cute & Cartoonish Art Style",
-      "brand2-desc": "Mainly Target Megaways Games",
-      "brand3-desc": "Provide In-Game Lobby That Allows Players to Seamlessly Switch Between Games",
-      "brand4-desc": "Provide In-Game Statement",
-      "brand5-desc": "Provide Bonus Wallet to Ensure That Players Can Only Use the Free Credits to Play Our Games",
-      "brand6-desc": "Clients Can Do Promotions Easily With Bonus Wallet",
-      "brand7-desc": "Provide In-Game Retention Tools (Jackpot & Red Packet) to Boost Player Engagement",
-      "brand8-desc": "Series of Megaways Games"
+      "title": "为什么选择KK GAMING",
+      "brand1-desc": "可爱与卡通的艺术风格",
+      "brand2-desc": "主要目标是Megaways游戏。",
+      "brand3-desc": "提供游戏内大厅，允许玩家在游戏之间无缝切换。",
+      "brand4-desc": "提供游戏内账单",
+      "brand5-desc": "提供奖励钱包，以确保玩家只能使用免费积分来玩我们的游戏。",
+      "brand6-desc": "客户可以轻松通过奖励钱包进行促销。",
+      "brand7-desc": "提供游戏内留存工具（奖池和红包）以提高玩家参与度",
+      "brand8-desc": "一系列的Megaways游戏"
     },
     "games": {
-      "title": "OUR GAMES",
-      "desc": "Explore our wide range of slot games that offer an unmatched gaming experience for both desktop and mobile players."
+      "title": "我们的游戏",
+      "desc": "浏览我们广泛的老虎机游戏，为桌面和移动玩家提供无与伦比的游戏体验。"
+    },
+    "contact": {
+      "title": "与我们合作以发挥您的在线游戏优势。",
+      "name": "名字",
+      "company": "公司",
+      "email": "电邮",
+      "phone_number": "电话号码",
+      "message": "信息"
     }
   },
   "games": {
-    "title": "MegaH5: Best Classic Online Slot Game | ",
+    "title": "KK GAMING: Best Classic Online Slot Game | ",
     "description": "Demo Game.",
+    "banner-title": "我们的游戏",
+    "banner-desc": "浏览我们广泛的老虎机游戏，为桌面和移动玩家提供无与伦比的游戏体验。",
     "game-nav": {
-      "All": "All",
-      "Slots": "Slots",
-      "Table": "Table",
-      "Arcade": "Arcade"
+      "All": "全部游戏",
+      "Slots": "老虎机",
+      "Table": "桌面",
+      "Arcade": "街机"
     }
   },
-  "main-nav": {
-    "home": "Home",
-    "about_us": "About Us",
-    "games": "Games",
-    "contact": "Contact Us"
+  "game-detail": {
+    "all-games": "ALL GAMES",
+    "similar-game": "SIMILAR GAME",
+    "game-type": "Game type",
+    "released-on": "Release on",
+    "compatibility": "Compatibility",
+    "feature": "Gameplay feature",
+    "slot-type": "Slot type",
+    "paylines": "Paylines",
+    "reels": "Reels",
+    "volatility": "Volatility",
+    "symbols": "Symbols",
+    "RTP": "RTP",
+    "maximum-exposure": "Maximum feature exposure"
   },
-  "footer": "Copyright © 2023 MegaH5 ® All Rights Reserved. MegaH5 Play to Believe",
+  "main-nav": {
+    "home": "主页",
+    "about_us": "关于我们",
+    "games": "游戏",
+    "contact": "联系我们"
+  },
+  "footer": "版权所有 © 2023 KK GAMING。保留所有权利。",
+  "footer_tagline": "运气与乐趣相遇的地方",
   "buttons": {
-    "play-btn": "Play Now",
-    "submit-btn": "Submit"
+    "play-btn": "立即玩",
+    "game-details": "GAME DETAILS",
+    "submit-btn": "提交"
+  },
+  "responsive-popup": {
+    "title": "负责任游戏",
+    "message": "请确认您符合法定年龄要求才能继续。",
+    "confirm": "是的，我已经超过 18 岁了。",
+    "cancel": "不，带我回去。"
   }
 }

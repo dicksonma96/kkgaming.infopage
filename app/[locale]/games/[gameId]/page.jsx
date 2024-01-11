@@ -6,14 +6,16 @@ import { promises as fs } from "fs";
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
 import BackIcon from "../../../assets/images/icons/back.png";
+import GameCard from "../../components/gameCard";
+import GetGamelist from "../../utils/getGamelist";
 
-function GameDetailContent({ details }) {
+function GameDetailContent({ details, similarGames, imgUrl }) {
   const t = useTranslations("game-detail");
-  const imgUrl = "https://gth.kk129212.com/thumbs/Mobile/";
+
   return (
     <main className="games colc">
       <section className="game_details row">
-        <div className="content col">
+        <div className="content colc">
           <Link className="back_btn rowc" href="/games">
             <Image src={BackIcon} alt="back" />
             <span>{t("all-games")}</span>
@@ -24,7 +26,10 @@ function GameDetailContent({ details }) {
               <strong>{details.name}</strong>
             </div>
             <div className="detail_body row">
-              <img src={imgUrl + details.id + ".png"} alt={details.name} />
+              <img
+                src={imgUrl + "/Mobile/" + details.id + ".png"}
+                alt={details.name}
+              />
               <div className="detail_list col">
                 <div className="detail_item row">
                   <span>{t("game-type")} :</span>
@@ -36,7 +41,13 @@ function GameDetailContent({ details }) {
                 </div>
                 <div className="detail_item row">
                   <span>{t("compatibility")} :</span>
-                  <strong>{details.compatibility}</strong>
+                  <div className="tags">
+                    {details.compatibility.map((tag, index) => (
+                      <div key={index} className="tag">
+                        {tag}
+                      </div>
+                    ))}
+                  </div>
                 </div>
                 <div className="detail_item row">
                   <span>{t("feature")} :</span>
@@ -85,6 +96,17 @@ function GameDetailContent({ details }) {
               </div>
             </div>
           </div>
+          <h2
+            className="section_title"
+            style={{ textAlign: "center", margin: "40px 0 20px" }}
+          >
+            {t("similar-game")}
+          </h2>
+          <div className="similar_games row">
+            {similarGames?.map((game, index) => (
+              <GameCard key={index} game={game} imgUrl={imgUrl} />
+            ))}
+          </div>
         </div>
       </section>
     </main>
@@ -94,14 +116,27 @@ function GameDetailContent({ details }) {
 async function GameDetail({ params }) {
   try {
     const file = await fs.readFile(
-      process.cwd() + `/app/data/games/${params.gameId}.json`,
+      `app/data/games/${params.gameId}.json`,
       "utf8"
     );
     const data = JSON.parse(file);
     const langData = () => {
       return data[useLocale()] ? data[useLocale()] : data["en-us"];
     };
-    return <GameDetailContent details={{ ...langData(), id: params.gameId }} />;
+    const gamesList = await GetGamelist(useLocale());
+    const similarGames = gamesList.Game.filter((game) => {
+      return langData()["Similar Games"].includes(game.GameId.toString());
+    });
+    return (
+      <GameDetailContent
+        details={{
+          ...langData(),
+          id: params.gameId,
+        }}
+        similarGames={similarGames}
+        imgUrl={gamesList.ThumbnailPath}
+      />
+    );
   } catch (e) {
     return (
       <main className="games colc" style={{ justifyContent: "center" }}>

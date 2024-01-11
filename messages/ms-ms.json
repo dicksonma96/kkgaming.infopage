@@ -1,9 +1,7 @@
 {
   "home": {
-    "title": "MegaH5: Play To Believe | ",
+    "title": "KK GAMING",
     "description": "Best Classic Online Slot Game.",
-    "how-to-des1": "Instantly load and play with",
-    "how-to-des2": "For more info, check out our video! Dont't miss out! Click, load, and play now!",
     "banner": {
       "banner1": "IS A GAME PROVIDER THAT SPECIALLY TARGETS MOBILE PHONE PLAYERS."
     },
@@ -25,7 +23,7 @@
       "mission-desc": "Our mission is to create exceptional games that deliver pure excitement and joy to players, making us a top choice in the industry."
     },
     "why-our-brand": {
-      "title": "WHY OUR BRAND",
+      "title": "WHY KK GAMING",
       "brand1-desc": "Cute & Cartoonish Art Style",
       "brand2-desc": "Mainly Target Megaways Games",
       "brand3-desc": "Provide In-Game Lobby That Allows Players to Seamlessly Switch Between Games",
@@ -38,17 +36,42 @@
     "games": {
       "title": "OUR GAMES",
       "desc": "Explore our wide range of slot games that offer an unmatched gaming experience for both desktop and mobile players."
+    },
+    "contact": {
+      "title": "PARTNER WITH US TO LEVERAGE \nYOUR ONLINE GAMING",
+      "name": "Name",
+      "company": "Company",
+      "email": "Email",
+      "phone_number": "Phone number",
+      "message": "Message"
     }
   },
   "games": {
-    "title": "MegaH5: Best Classic Online Slot Game | ",
+    "title": "KK GAMING: Best Classic Online Slot Game | ",
     "description": "Demo Game.",
+    "banner-title": "OUR GAMES",
+    "banner-desc": "Explore our wide range of slot games that offer an unmatched gaming experience for both desktop and mobile players.",
     "game-nav": {
-      "All": "All",
-      "Slots": "Slots",
-      "Table": "Table",
-      "Arcade": "Arcade"
+      "All": "ALL",
+      "Slots": "SLOTS",
+      "Table": "TABLE",
+      "Arcade": "ARCADE"
     }
+  },
+  "game-detail": {
+    "all-games": "ALL GAMES",
+    "similar-game": "SIMILAR GAME",
+    "game-type": "Game type",
+    "released-on": "Release on",
+    "compatibility": "Compatibility",
+    "feature": "Gameplay feature",
+    "slot-type": "Slot type",
+    "paylines": "Paylines",
+    "reels": "Reels",
+    "volatility": "Volatility",
+    "symbols": "Symbols",
+    "RTP": "RTP",
+    "maximum-exposure": "Maximum feature exposure"
   },
   "main-nav": {
     "home": "Home",
@@ -56,9 +79,17 @@
     "games": "Games",
     "contact": "Contact Us"
   },
-  "footer": "Copyright © 2023 MegaH5 ® All Rights Reserved. MegaH5 Play to Believe",
+  "footer": "Copyright © 2023 KK GAMING All Rights Reserved.",
+  "footer_tagline": "WHERE LUCK MEETS FUN",
   "buttons": {
-    "play-btn": "Play Now",
+    "play-btn": "PLAY NOW",
+    "game-details": "GAME DETAILS",
     "submit-btn": "Submit"
+  },
+  "responsive-popup": {
+    "title": "RESPONSIBLE GAMING",
+    "message": "Please confirm you meet the legal age requirement to continue.",
+    "confirm": "Yes, I am over 18",
+    "cancel": "No, take me back"
   }
 }

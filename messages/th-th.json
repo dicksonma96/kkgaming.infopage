@@ -1,64 +1,95 @@
 {
   "home": {
-    "title": "MegaH5: Play To Believe | ",
+    "title": "KK GAMING",
     "description": "Best Classic Online Slot Game.",
-    "how-to-des1": "Instantly load and play with",
-    "how-to-des2": "For more info, check out our video! Dont't miss out! Click, load, and play now!",
     "banner": {
-      "banner1": "IS A GAME PROVIDER THAT SPECIALLY TARGETS MOBILE PHONE PLAYERS."
+      "banner1": "เป็นผู้ให้บริการเกมที่เน้นสำหรับผู้เล่นบนโทรศัพท์มือถือโดยเฉพาะ"
     },
     "about-us": {
-      "title": "ABOUT US",
-      "desc": "KK GAMING is a game provider that focuses on mobile phone gamers. We are committed to transforming the gamification of mobile apps with our innovative and customized game solutions. Our games redefined the bar for cutting-edge entertainment with stunning graphics and gameplay."
+      "title": "เกี่ยวกับเรา",
+      "desc": "KK GAMINGเป็นผู้ให้บริการเกมที่เน้นผู้เล่นโทรศัพท์มือถือ พวกเรามุ่งมั่นที่จะเปลี่ยนแปลงการให้บริการเกมบนโทรศัพท์มือถือด้วยโซลูชันเกมอย่างสร้างสรรค์และปรับแต่งของเรา โดยเกมของเราได้กำหนดมาตรฐานใหม่สำหรับความบันเทิงที่ทันสมัยด้วยกราฟิกสุดล้ำและเกมเพลย์ที่น่าตื่นเต้น"
     },
     "feature": {
-      "title": "FEATURE",
-      "feature1": "BUY \n FEATURE",
-      "feature2": "IN GAME \n REWARD",
-      "feature3": "JACKPOT AND \n RED PACKET",
-      "feature4": "SEASONAL \n EVENT"
+      "title": "ฟีเจอร์",
+      "feature1": "ซื้อฟีเจอร์",
+      "feature2": "รางวัลในเกม0000000000000000",
+      "feature3": "แจ๊คพอตและอั่งเปา",
+      "feature4": "กิจกรรมตามฤดูกาล"
     },
     "vision-mission": {
-      "vision": "OUR VISION",
-      "vision-desc": "Our vision is to revolutionize mobile app gamification with our gaming solutions. We strive to set a new standard for unrivaled entertainment, offering breathtaking visuals and captivating gameplay that immerse and thrill mobile slot players.",
-      "mission": "OUR MISSION",
-      "mission-desc": "Our mission is to create exceptional games that deliver pure excitement and joy to players, making us a top choice in the industry."
+      "vision": "วิสัยทัศน์ของเรา",
+      "vision-desc": "วิสัยทัศน์ของเราคือ การปฏิวัติการเล่นเกมบนมือถือ เรามุ่งมั่นจะสร้างมาตรฐานใหม่สำหรับความบันเทิงที่ไม่เหมือนใครด้วยการนำเสนอกราฟฟิคสุดล้ำและรูปแบบการเล่นที่เพลิดเพลินที่จะทำให้ผู้เล่นสล็อตบนมือถือรู้สึกถึงความสนุกและตื่นเต้น",
+      "mission": "พันธกิจของเรา",
+      "mission-desc": "พันธมิตรของเราคือการสร้างเกมที่ยอดเยี่ยมที่ส่งมอบความตื่นเต้นและความสุขแก่ผู้เล่น ทำให้เราเป็นตัวเลือกที่ดีที่สุดในอุตสาหกรรม"
     },
     "why-our-brand": {
-      "title": "WHY OUR BRAND",
-      "brand1-desc": "Cute & Cartoonish Art Style",
-      "brand2-desc": "Mainly Target Megaways Games",
-      "brand3-desc": "Provide In-Game Lobby That Allows Players to Seamlessly Switch Between Games",
-      "brand4-desc": "Provide In-Game Statement",
-      "brand5-desc": "Provide Bonus Wallet to Ensure That Players Can Only Use the Free Credits to Play Our Games",
-      "brand6-desc": "Clients Can Do Promotions Easily With Bonus Wallet",
-      "brand7-desc": "Provide In-Game Retention Tools (Jackpot & Red Packet) to Boost Player Engagement",
-      "brand8-desc": "Series of Megaways Games"
+      "title": "ทำไมเล่น KK GAMING",
+      "brand1-desc": "รูปภาพที่น่ารักและมีสไตล์การวาดการ์ตูน",
+      "brand2-desc": "เป้าหมายหลักเป็นเกม Megaways",
+      "brand3-desc": "สร้างล็อบบี้ในเกมส์ที่อนุญาตให้ผู่เล่นสลับเกมได้อย่างไม่มีสะดุด",
+      "brand4-desc": "ให้งบในเกม",
+      "brand5-desc": "ให้โบนัสเพื่อให้ว่าผู้เล่นสามารถใช้เครดิตฟรีเพื่อเล่นเกมของเราเท่านั้น",
+      "brand6-desc": "ลูกค้าสามารถเข้าร่วมโปรโมชั่นได้อย่างง่ายดายผ่านกระเป๋าเงินโบนัส",
+      "brand7-desc": "ให้เครื่องมือในเกม (แจ็คพอตและอั่งเปา) เพื่อเพิ่มการมีส่วนร่วมของผู้เล่น",
+      "brand8-desc": "เกมซีรีย์ของ Megaways"
     },
     "games": {
-      "title": "OUR GAMES",
-      "desc": "Explore our wide range of slot games that offer an unmatched gaming experience for both desktop and mobile players."
+      "title": "เกมส์ของเรา",
+      "desc": "คิดค้นเกมสล็อตที่หลากหลาย มอบประสบการณ์การเล่นเกมที่ไม่เหมือนใคร สำหรับผู้เล่นที่ใช้ทั้งคอมพิวเตอร์และโทรศัพท์มือถือ"
+    },
+    "contact": {
+      "title": "ร่วมงานกับเราเพื่อให้คุณสามารถใช้ประโยชน์จากการเล่นเกมออนไลน์ได้มากขึ้น",
+      "name": "ชื่อ*",
+      "company": "บริษัท*",
+      "email": "อีเมล์",
+      "phone_number": "เบอร์โทรศัพท์",
+      "message": "ข้อความ*"
     }
   },
   "games": {
-    "title": "MegaH5: Best Classic Online Slot Game | ",
+    "title": "KK GAMING: Best Classic Online Slot Game | ",
     "description": "Demo Game.",
+    "banner-title": "เกมส์ของเรา",
+    "banner-desc": "คิดค้นเกมสล็อตที่หลากหลาย มอบประสบการณ์การเล่นเกมที่ไม่เหมือนใคร สำหรับผู้เล่นที่ใช้ทั้งคอมพิวเตอร์และโทรศัพท์มือถือ",
     "game-nav": {
-      "All": "All",
-      "Slots": "Slots",
-      "Table": "Table",
-      "Arcade": "Arcade"
+      "All": "เกมส์ทั้งหมด",
+      "Slots": "สล็อต",
+      "Table": "โต๊ะ",
+      "Arcade": "อาร์เคด"
     }
   },
-  "main-nav": {
-    "home": "Home",
-    "about_us": "About Us",
-    "games": "Games",
-    "contact": "Contact Us"
+  "game-detail": {
+    "all-games": "ALL GAMES",
+    "similar-game": "SIMILAR GAME",
+    "game-type": "Game type",
+    "released-on": "Release on",
+    "compatibility": "Compatibility",
+    "feature": "Gameplay feature",
+    "slot-type": "Slot type",
+    "paylines": "Paylines",
+    "reels": "Reels",
+    "volatility": "Volatility",
+    "symbols": "Symbols",
+    "RTP": "RTP",
+    "maximum-exposure": "Maximum feature exposure"
   },
-  "footer": "Copyright © 2023 MegaH5 ® All Rights Reserved. MegaH5 Play to Believe",
+  "main-nav": {
+    "home": "หน้าหลัก",
+    "about_us": "เกี่ยวกับเรา",
+    "games": "เกม",
+    "contact": "ติดต่อเรา"
+  },
+  "footer": "ลิขสิทธิ์ © 2023 KK GAMING สงวนลิขสิทธิ์ทั้งหมด",
+  "footer_tagline": "ที่ซึ่งโชคมาพบกับความสนุก",
   "buttons": {
-    "play-btn": "Play Now",
-    "submit-btn": "Submit"
+    "play-btn": "เล่นตอนนี้",
+    "game-details": "GAME DETAILS",
+    "submit-btn": "ส่ง"
+  },
+  "responsive-popup": {
+    "title": "การเล่นเกมที่มีความรับผิดชอบ",
+    "message": "โปรดยืนยันว่า คุณมีอายุตรงตามข้อกำหนดทางกฎหมายเพื่อดำเนินการต่อ",
+    "confirm": "ใช่, ฉันอายุเกิน 18 ปี",
+    "cancel": "ไม่, ย้อนกลับ"
   }
 }

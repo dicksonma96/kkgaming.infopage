@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
 import GetGamelist from "../../utils/getGamelist";
 import GameCard from "../gameCard";
+import Link from "next/link";
 import "./style.scss";
 
 function HomeGames() {
@@ -13,7 +14,9 @@ function HomeGames() {
         <h2 className="section_title">{t("home.games.title")}</h2>
         <p>{t("home.games.desc")}</p>
         <GameList />
-        <button className="cta_btn1">{t("buttons.play-btn")}</button>
+        <Link className="cta_btn1" href={"/games"}>
+          {t("buttons.play-btn")}
+        </Link>
       </div>
     </section>
   );

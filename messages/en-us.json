@@ -23,7 +23,7 @@
       "mission-desc": "Our mission is to create exceptional games that deliver pure excitement and joy to players, making us a top choice in the industry."
     },
     "why-our-brand": {
-      "title": "WHY OUR BRAND",
+      "title": "WHY KK GAMING",
       "brand1-desc": "Cute & Cartoonish Art Style",
       "brand2-desc": "Mainly Target Megaways Games",
       "brand3-desc": "Provide In-Game Lobby That Allows Players to Seamlessly Switch Between Games",
@@ -70,8 +70,8 @@
     "reels": "Reels",
     "volatility": "Volatility",
     "symbols": "Symbols",
-    "rtp": "RTP",
-    "maximum-feature-exposure": "Maximum feature exposure"
+    "RTP": "RTP",
+    "maximum-exposure": "Maximum feature exposure"
   },
   "main-nav": {
     "home": "Home",
@@ -85,5 +85,11 @@
     "play-btn": "PLAY NOW",
     "game-details": "GAME DETAILS",
     "submit-btn": "Submit"
+  },
+  "responsive-popup": {
+    "title": "RESPONSIBLE GAMING",
+    "message": "Please confirm you meet the legal age requirement to continue.",
+    "confirm": "Yes, I am over 18",
+    "cancel": "No, take me back"
   }
 }

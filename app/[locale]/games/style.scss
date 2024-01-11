@@ -78,6 +78,17 @@
         }
       }
     }
+    .similar_games {
+      width: 100%;
+      max-width: 700px;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 50px;
+
+      .game_card {
+        flex: 1;
+      }
+    }
   }
 }
 
