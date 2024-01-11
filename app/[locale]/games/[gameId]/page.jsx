@@ -115,6 +115,23 @@ function GameDetailContent({ details, similarGames, imgUrl }) {
   );
 }
 
+function GameNotFound() {
+  const t = useTranslations("game-detail");
+  return (
+    <main
+      className="games game_not_found colc"
+      style={{ justifyContent: "center" }}
+    >
+      <div>Game not found</div>
+      <br />
+      <br />
+      <Link className="cta_btn1 rowc" href="/games">
+        <span>Back</span>
+      </Link>
+    </main>
+  );
+}
+
 async function GameDetail({ params }) {
   try {
     const filePath = path.join(
@@ -142,11 +159,7 @@ async function GameDetail({ params }) {
       />
     );
   } catch (e) {
-    return (
-      <main className="games colc" style={{ justifyContent: "center" }}>
-        <div>Game not found</div>
-      </main>
-    );
+    return <GameNotFound />;
   }
 }
 
