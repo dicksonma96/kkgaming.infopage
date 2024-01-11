@@ -1,0 +1,21 @@
+.games_banner {
+  position: relative;
+  background: url("../../../assets/images/games_banner.jpg");
+  background-size: cover;
+  .content {
+    padding: 0 20px;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 150px;
+    .text {
+      width: 100%;
+      max-width: 500px;
+    }
+    .games_model {
+      width: 15%;
+      min-width: 100px;
+      margin-bottom: -6%;
+      pointer-events: none;
+    }
+  }
+}

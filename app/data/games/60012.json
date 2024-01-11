@@ -1,0 +1,62 @@
+{
+  "en-us": {
+    "name": "Rodeo Maiden",
+    "game_type": "Slot",
+    "release_on": "January, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Free Game Pick", "Buy Free Games", "Stacked Symbol"],
+    "slot_type": "5x4",
+    "paylines": "50",
+    "reels": "5",
+    "volatility": "Medium-Low",
+    "symbols": ["Free Game Scatter", "Wild", "4 High Payout Symbols", "5 Low Payout Symbols"],
+    "RTP": "96%",
+    "maximum_exposure": "1,000x",
+    "Similar Games": ["60004", "60010", "60015"]
+  },
+  "zh-cn": {
+    "name": "牛仔女郎",
+    "game_type": "老虎机",
+    "release_on": "1 月, 2024",
+    "compatibility": ["Windows", "iOS", "安卓", "H5"],
+    "feature": ["免费游戏选择", "购买免费游戏", "堆叠符号"],
+    "slot_type": "5x4",
+    "paylines": "50",
+    "reels": "5",
+    "volatility": "中低",
+    "symbols": ["免费游戏分散", "百搭", "4 高赔符号", "5 低赔符号"],
+    "RTP": "96%",
+    "maximum_exposure": "1,000x",
+    "Similar Games": ["60004", "60010", "60015"]
+  },
+  "th-th": {
+    "name": "คาวบอยสาว ล่าสมบัติ",
+    "game_type": "สล็อต",
+    "release_on": "มกราคม, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["เลือกเกมฟรี", "ซื้อเกมฟรี", "สัญลักษณ์ซ้อน"],
+    "slot_type": "5x4",
+    "paylines": "50",
+    "reels": "5",
+    "volatility": "กลาง-ต่ำ",
+    "symbols": ["กระจายเกมฟรี", "ไวล์ด", "4 สัญลักษณ์การจ่ายเงินสูง", "5 สัญลักษณ์การจ่ายเงินต่ำ"], 
+    "RTP": "96%",
+    "maximum_exposure": "1,000x",
+    "Similar Games": ["60004", "60010", "60015"]
+  },
+  "ms-ms": {
+    "name": "Rodeo Maiden",
+    "game_type": "Slot",
+    "release_on": "Januari, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Pilihan Permainan Percuma", "Beli Permainan Percuma", "Simbol Bertindan"],
+    "slot_type": "5x4",
+    "paylines": "50",
+    "reels": "5",
+    "volatility": "Sederhana-Rendah",
+    "symbols": ["Scatter Permainan Percuma", "Liar", "4 Simbol Bayaran Tinggi", "5 Simbol Bayaran Rendah"],
+    "RTP": "96%",
+    "maximum_exposure": "1,000x",
+    "Similar Games": ["60004", "60010", "60015"]
+  }
+}

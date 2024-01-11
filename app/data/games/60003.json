@@ -1,0 +1,62 @@
+{
+  "en-us": {
+    "name": "Egyptian Meow",
+    "game_type": "Slot",
+    "release_on": "January, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Free Game", "Buy Free Games", "Cascade Win", "Random Multiplier"],
+    "slot_type": "6x5",
+    "paylines": "Cluster Pay",
+    "reels": "6",
+    "volatility": "Medium",
+    "symbols": ["Free Game Scatter", "Multiplier", "4 High Payout Symbols", "5 Low Payout Symbols"],
+    "RTP": "97%",
+    "maximum_exposure": "630x",
+    "Similar Games": ["60000", "60002", "60029"]
+  },
+  "zh-cn": {
+    "name": "埃及神猫",
+    "game_type": "老虎机",
+    "release_on": "1 月, 2024",
+    "compatibility": ["Windows", "iOS", "安卓", "H5"],
+    "feature": ["免费游戏", "购买免费游戏", "翻滚赢奖", "随机倍乘数"],
+    "slot_type": "6x5",
+    "paylines": "集群支付",
+    "reels": "6",
+    "volatility": "中",
+    "symbols": ["免费游戏分散", "倍乘数", "4 高赔符号", "5 低赔符号"],
+    "RTP": "97%",
+    "maximum_exposure": "630x",
+    "Similar Games": ["60000", "60002", "60029"]
+  },
+  "th-th": {
+    "name": "เหมียวอียิปต์",
+    "game_type": "สล็อต",
+    "release_on": "มกราคม, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["เกมฟรี", "ซื้อเกมฟรี", "ชนะเกลือกกลิ้ง", "ตัวคูณสุ่ม"],
+    "slot_type": "6x5",
+    "paylines": "คลัสเตอร์จ่าย",
+    "reels": "6",
+    "volatility": "ปานกลาง",
+    "symbols": ["กระจายเกมฟรี", "ตัวคูณ", "4 สัญลักษณ์การจ่ายเงินสูง", "5 สัญลักษณ์การจ่ายเงินต่ำ"], 
+    "RTP": "97%",
+    "maximum_exposure": "630x",
+    "Similar Games": ["60000", "60002", "60029"]
+  },
+  "ms-ms": {
+    "name": "Egyptian Meow",
+    "game_type": "Slot",
+    "release_on": "Januari, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Permainan Percuma", "Beli Permainan Percuma", "Kemenangan Terus-menerus", "Pengganda Rawak"],
+    "slot_type": "6x5",
+    "paylines": "Bayaran Kluster",
+    "reels": "6",
+    "volatility": "Sederhana",
+    "symbols": ["Scatter Permainan Percuma", "Pengganda", "4 Simbol Bayaran Tinggi", "5 Simbol Bayaran Rendah"],
+    "RTP": "97%",
+    "maximum_exposure": "630x",
+    "Similar Games": ["60000", "60002", "60029"]
+  }
+}

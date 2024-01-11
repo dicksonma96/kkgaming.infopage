@@ -1,0 +1,62 @@
+{
+  "en-us": {
+    "name": "Scarlet Princess",
+    "game_type": "Slot",
+    "release_on": "January, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Wins Doubled With Wild", "Wild Multiplier", "Wild Reel"],
+    "slot_type": "5x3",
+    "paylines": "20",
+    "reels": "5",
+    "volatility": "Medium-High",
+    "symbols": ["Free Game Scatter", "Wild", "4 High Payout Symbols", "6 Low Payout Symbols"],
+    "RTP": "96%",
+    "maximum_exposure": "2,872x",
+    "Similar Games": ["60004", "60007", "60008"]
+  },
+  "zh-cn": {
+    "name": "绯红公主",
+    "game_type": "老虎机",
+    "release_on": "1 月, 2024",
+    "compatibility": ["Windows", "iOS", "安卓", "H5"],
+    "feature": ["百搭奖金翻倍", "百搭倍乘数", "百搭卷轴"],
+    "slot_type": "5x3",
+    "paylines": "20",
+    "reels": "5",
+    "volatility": "中高",
+    "symbols": ["免费游戏分散", "百搭", "4 高赔符号", "6 低赔符号"],
+    "RTP": "96%",
+    "maximum_exposure": "2,872x",
+    "Similar Games": ["60004", "60007", "60008"]
+  },
+  "th-th": {
+    "name": "เจ้าหญิงสการ์เล็ต",
+    "game_type": "สล็อต",
+    "release_on": "มกราคม, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["ชนะสองเท่าด้วย Wild", "ตัวทวีคูณไวลด์", "รอกป่า"],
+    "slot_type": "5x3",
+    "paylines": "20",
+    "reels": "5",
+    "volatility": "ปานกลางสูง",
+    "symbols": ["กระจายเกมฟรี", "ไวล์ด", "4 สัญลักษณ์การจ่ายเงินสูง", "6 สัญลักษณ์การจ่ายเงินต่ำ"], 
+    "RTP": "96%",
+    "maximum_exposure": "2,872x",
+    "Similar Games": ["60004", "60007", "60008"]
+  },
+  "ms-ms": {
+    "name": "Scarlet Princess",
+    "game_type": "Slot",
+    "release_on": "Januari, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Kemenangan Berganda Dengan Liar", "Pengganda Liar", "Kekili Liar"],
+    "slot_type": "5x3",
+    "paylines": "9",
+    "reels": "5",
+    "volatility": "Sederhana-Tinggi",
+    "symbols": ["Scatter Permainan Percuma", "Liar", "4 Simbol Bayaran Tinggi", "6 Simbol Bayaran Rendah"],
+    "RTP": "96%",
+    "maximum_exposure": "2,872x",
+    "Similar Games": ["60004", "60007", "60008"]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "en-us": {
+    "name": "Treasure Miner",
+    "game_type": "Slot",
+    "release_on": "January, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Free Game", "Buy Free Games", "Cascade Win", "Multiplier"],
+    "slot_type": "5x4",
+    "paylines": "25",
+    "reels": "5",
+    "volatility": "Medium",
+    "symbols": ["Mystery Scatter", "Wild", "6 High Payout Symbols", "4 Low Payout Symbols"],
+    "RTP": "96%",
+    "maximum_exposure": "1,253x",
+    "Similar Games": ["60000", "60003", "60018"]
+  },
+  "zh-cn": {
+    "name": "宝藏矿工",
+    "game_type": "老虎机",
+    "release_on": "1 月, 2024",
+    "compatibility": ["Windows", "iOS", "安卓", "H5"],
+    "feature": ["免费游戏", "购买免费游戏", "翻滚赢奖", "倍乘数"],
+    "slot_type": "5x4",
+    "paylines": "25",
+    "reels": "5",
+    "volatility": "中",
+    "symbols": ["神秘分散", "百搭", "6 高赔符号", "4 低赔符号"],
+    "RTP": "96%",
+    "maximum_exposure": "1,253x",
+    "Similar Games": ["60000", "60003", "60018"]
+  },
+  "th-th": {
+    "name": "นักขุดสมบัติ",
+    "game_type": "สล็อต",
+    "release_on": "มกราคม, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["เกมฟรี", "ซื้อเกมฟรี", "ชนะเกลือกกลิ้ง", "ตัวคูณ"],
+    "slot_type": "5x4",
+    "paylines": "25",
+    "reels": "5",
+    "volatility": "ปานกลาง",
+    "symbols": ["Mystery Scatter", "ไวล์ด", "6 สัญลักษณ์การจ่ายเงินสูง", "4 สัญลักษณ์การจ่ายเงินต่ำ"], 
+    "RTP": "96%",
+    "maximum_exposure": "1,253x",
+    "Similar Games": ["60000", "60003", "60018"]
+  },
+  "ms-ms": {
+    "name": "Treasure Miner",
+    "game_type": "Slot",
+    "release_on": "Januari, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Permainan Percuma", "Beli Permainan Percuma", "Kemenangan Terus-menerus", "Pengganda"],
+    "slot_type": "5x4",
+    "paylines": "25",
+    "reels": "5",
+    "volatility": "Sederhana",
+    "symbols": ["Scatter Misteri", "Liar", "6 Simbol Bayaran Tinggi", "4 Simbol Bayaran Rendah"],
+    "RTP": "96%",
+    "maximum_exposure": "1,253x",
+    "Similar Games": ["60000", "60003", "60018"]
+  }
+}

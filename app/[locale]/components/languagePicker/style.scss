@@ -1,0 +1,36 @@
+.language_picker {
+  position: relative;
+  z-index: 999;
+
+  .selected_lang {
+    width: 30px;
+  }
+
+  .lang_dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    gap: 5px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    border-radius: 2px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    .lang_item {
+      color: white;
+      gap: 5px;
+      padding: 5px 10px;
+      border-radius: 3px;
+      img {
+        width: 30px;
+        margin-right: 3px;
+      }
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+    }
+  }
+}

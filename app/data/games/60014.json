@@ -1,0 +1,62 @@
+{
+  "en-us": {
+    "name": "Pirate Dynasty",
+    "game_type": "Slot",
+    "release_on": "January, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Free Game", "Buy Free Games", "Random Symbol", "Wild Multiplier"],
+    "slot_type": "5x3",
+    "paylines": "243 Ways",
+    "reels": "5",
+    "volatility": "Medium",
+    "symbols": ["Free Game Scatter", "Mystery Scatter", "Wild", "4 High Payout Symbols", "5 Low Payout Symbols"],
+    "RTP": "96%",
+    "maximum_exposure": "1,052x",
+    "Similar Games": ["60002", "60007", "60011"]
+  },
+  "zh-cn": {
+    "name": "大海盗时代",
+    "game_type": "老虎机",
+    "release_on": "1 月, 2024",
+    "compatibility": ["Windows", "iOS", "安卓", "H5"],
+    "feature": ["免费游戏", "购买免费游戏", "随机符号", "百搭倍乘数"],
+    "slot_type": "5x3",
+    "paylines": "243 方式",
+    "reels": "5",
+    "volatility": "中",
+    "symbols": ["免费游戏分散", "神秘分散", "百搭", "4 高赔符号", "5 低赔符号"],
+    "RTP": "96%",
+    "maximum_exposure": "1,052x",
+    "Similar Games": ["60001", "60007", "60011"]
+  },
+  "th-th": {
+    "name": "ราชวงศ์โจรสลัด",
+    "game_type": "สล็อต",
+    "release_on": "มกราคม, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["เกมฟรี", "ซื้อเกมฟรี", "สัญลักษณ์สุ่ม", "ตัวทวีคูณไวลด์"],
+    "slot_type": "5x3",
+    "paylines": "243 วิธี",
+    "reels": "5",
+    "volatility": "ปานกลาง",
+    "symbols": ["กระจายเกมฟรี", "Mystery Scatter", "ไวล์ด", "4 สัญลักษณ์การจ่ายเงินสูง", "5 สัญลักษณ์การจ่ายเงินต่ำ"], 
+    "RTP": "96%",
+    "maximum_exposure": "1,052x",
+    "Similar Games": ["60001", "60007", "60011"]
+  },
+  "ms-ms": {
+    "name": "Pirate Dynasty",
+    "game_type": "Slot",
+    "release_on": "Januari, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Permainan Percuma", "Beli Permainan Percuma", "Simbol Rawak", "Pengganda Liar"],
+    "slot_type": "5x3",
+    "paylines": "243 Cara",
+    "reels": "5",
+    "volatility": "Sederhana",
+    "symbols": ["Scatter Permainan Percuma", "Scatter Misteri", "Liar", "4 Simbol Bayaran Tinggi", "5 Simbol Bayaran Rendah"],
+    "RTP": "96%",
+    "maximum_exposure": "1,052x",
+    "Similar Games": ["60001", "60007", "60011"]
+  }
+}

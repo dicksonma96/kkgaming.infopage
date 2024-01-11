@@ -1,0 +1,69 @@
+.game_nav {
+  border: solid 1px #ff9a00;
+  border-radius: 3px;
+  margin: 80px 0;
+  overflow: hidden;
+  .game_nav_item {
+    color: #ff9a00;
+    padding: 2px 25px;
+    font-size: 20px;
+    border-right: solid 1px #ff9a00;
+    cursor: pointer;
+
+    &:last-child {
+      border: none;
+    }
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  }
+
+  .game_nav_active,
+  .game_nav_active:hover {
+    background: #ff9a00;
+    color: white;
+  }
+}
+
+.small_game_nav {
+  position: relative;
+  z-index: 999;
+  max-width: 250px;
+  width: 90%;
+
+  .selected_game {
+    padding: 10px;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 255, 255, 0.7) 0%,
+      rgba(2, 30, 205, 0.7) 100%
+    );
+    color: white;
+    justify-content: space-between;
+    width: 100%;
+    border: solid 1px #00ffff;
+    border-radius: 999px;
+  }
+  .game_dropdown {
+    position: absolute;
+    top: 100%;
+    margin-top: 10px;
+    width: 100%;
+    border: solid 1px #00ffff;
+    background-color: #010b49;
+    border-radius: 10px;
+    padding: 5px;
+
+    .option {
+      color: #00ffff;
+      padding: 10px;
+      border-radius: 2px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+    }
+  }
+}

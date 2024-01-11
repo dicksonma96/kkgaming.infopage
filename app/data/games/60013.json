@@ -1,0 +1,62 @@
+{
+  "en-us": {
+    "name": "Miner King",
+    "game_type": "Slot",
+    "release_on": "January, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Free Game", "Buy Free Games", "Payout Scatter", "Free Game Retrigger"],
+    "slot_type": "5x3",
+    "paylines": "25",
+    "reels": "5",
+    "volatility": "Low",
+    "symbols": ["Free Game Scatter", "Payout Scatter", "Wild", "5 High Payout Symbols", "4 Low Payout Symbols"],
+    "RTP": "97.3%",
+    "maximum_exposure": "1,000x",
+    "Similar Games": ["60001", "60002", "60008"]
+  },
+  "zh-cn": {
+    "name": "矿工王",
+    "game_type": "老虎机",
+    "release_on": "1 月, 2024",
+    "compatibility": ["Windows", "iOS", "安卓", "H5"],
+    "feature": ["免费游戏", "购买免费游戏", "赔付分散", "免费游戏再触发"],
+    "slot_type": "5x3",
+    "paylines": "25",
+    "reels": "5",
+    "volatility": "低",
+    "symbols": ["免费游戏分散", "赔付分散", "百搭", "5 高赔符号", "4 低赔符号"],
+    "RTP": "97.3%",
+    "maximum_exposure": "1,000x",
+    "Similar Games": ["60001", "60002", "60008"]
+  },
+  "th-th": {
+    "name": "ราชาเหมืองแร่",
+    "game_type": "สล็อต",
+    "release_on": "มกราคม, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["เกมฟรี", "ซื้อเกมฟรี", "การกระจายการจ่ายเงิน", "รีทริกเกอร์เกมฟรี"],
+    "slot_type": "5x3",
+    "paylines": "25",
+    "reels": "5",
+    "volatility": "ต่ำ",
+    "symbols": ["กระจายเกมฟรี", "การกระจายการจ่ายเงิน", "ไวล์ด", "5 สัญลักษณ์การจ่ายเงินสูง", "4 สัญลักษณ์การจ่ายเงินต่ำ"], 
+    "RTP": "97.3%",
+    "maximum_exposure": "1,000x",
+    "Similar Games": ["60001", "60002", "60008"]
+  },
+  "ms-ms": {
+    "name": "Miner King",
+    "game_type": "Slot",
+    "release_on": "Januari, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Permainan Percuma", "Beli Permainan Percuma", "Scatter Pembayaran", "Pencetus Semula Permainan Percuma"],
+    "slot_type": "5x3",
+    "paylines": "25",
+    "reels": "5",
+    "volatility": "Rendah",
+    "symbols": ["Scatter Permainan Percuma", "Scatter Pembayaran", "Liar", "5 Simbol Bayaran Tinggi", "4 Simbol Bayaran Rendah"],
+    "RTP": "97.3%",
+    "maximum_exposure": "1,000x",
+    "Similar Games": ["60001", "60002", "60008"]
+  }
+}

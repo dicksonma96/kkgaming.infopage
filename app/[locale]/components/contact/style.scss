@@ -1,0 +1,35 @@
+.contact {
+  background-image: url("../../../assets/images/contact_bg.jpg");
+  background-size: cover;
+  background-position: right;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-bottom: 50px;
+  .content {
+    align-items: flex-start;
+    .section_title {
+      margin-bottom: 30px;
+      white-space: pre-wrap;
+    }
+    .input {
+      margin-bottom: 30px;
+      width: 100%;
+      max-width: 500px;
+
+      input,
+      textarea {
+        width: 100%;
+        background: none;
+        border: none;
+        border-bottom: solid 1px white;
+        color: white;
+        transition: 0.3s;
+        padding: 5px;
+
+        &:focus {
+          outline: none;
+          border-color: #ff9a00;
+        }
+      }
+    }
+  }
+}

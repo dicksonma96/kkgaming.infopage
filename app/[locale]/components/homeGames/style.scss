@@ -1,0 +1,22 @@
+.home_games {
+  .content {
+    .section_title {
+      margin-bottom: 20px;
+    }
+    .game_grid {
+      align-self: center;
+      margin: 40px 0;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      width: 80%;
+      img {
+        width: 100%;
+        cursor: pointer;
+      }
+    }
+    .cta_btn1 {
+      align-self: center;
+    }
+  }
+}

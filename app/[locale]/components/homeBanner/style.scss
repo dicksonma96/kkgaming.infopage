@@ -1,0 +1,16 @@
+.main_banner {
+  position: relative;
+  img {
+    width: 100%;
+  }
+  .text {
+    position: absolute;
+    left: 36%;
+    bottom: 13%;
+    height: 20%;
+    width: 32%;
+    text-align: center;
+    font-size: 2.2vw;
+    font-weight: bold;
+  }
+}

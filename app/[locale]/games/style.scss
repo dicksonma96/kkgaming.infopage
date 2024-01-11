@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "aero";
+  src: url("../../assets/fonts/Aero.ttf");
+}
+
+.games {
+  background-color: black;
+  min-height: 100vh;
+  padding-bottom: 60px;
+}
+
+.game_details {
+  margin-top: 70px;
+  .content {
+    .back_btn {
+      align-self: center;
+      max-width: 800px;
+      width: 100%;
+      color: white;
+      gap: 5px;
+      padding: 10px 0;
+      margin: 10px 0;
+      img {
+        width: 30px;
+      }
+    }
+    .detail_frame {
+      border-radius: 10px;
+      overflow: hidden;
+      width: 100%;
+      max-width: 800px;
+      align-self: center;
+      .frame_name {
+        background: linear-gradient(#98b3c6, #172e3f);
+        padding: 10px 20px;
+        color: white;
+        font-size: 20px;
+      }
+      .detail_body {
+        padding: 20px;
+        background: linear-gradient(
+          180deg,
+          #172e3f 0%,
+          #295474 8.39%,
+          #121e26 100%
+        );
+        img {
+          width: 300px;
+          margin-right: 20px;
+          align-self: flex-start;
+        }
+        .detail_list {
+          color: white;
+          gap: 8px;
+          padding: 5px;
+
+          .detail_item {
+            font-size: 14px;
+            span {
+              white-space: nowrap;
+              margin-right: 5px;
+            }
+
+            .tags {
+              display: flex;
+              flex-wrap: wrap;
+              gap: 3px;
+
+              .tag {
+                padding: 3px 5px;
+                background-color: #121e26;
+                color: white;
+                font-size: 12px;
+                border-radius: 2px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .games {
+    .games_banner {
+      .desktop_banner {
+        display: none;
+      }
+      .mobile_banner {
+        display: block;
+      }
+      h1 {
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 15vw;
+      }
+    }
+  }
+}

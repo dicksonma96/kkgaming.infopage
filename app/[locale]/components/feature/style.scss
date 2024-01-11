@@ -1,0 +1,26 @@
+.feature {
+  .content {
+    .section_title {
+      margin-bottom: 20px;
+    }
+    .feature_items {
+      width: 100%;
+      gap: 30px;
+
+      .feature_item {
+        flex: 1;
+        border-bottom: solid 3px #ff9a00;
+        padding-bottom: 20px;
+        img {
+          width: 70px;
+          margin-bottom: 10px;
+        }
+        span {
+          white-space: pre-line;
+          font-weight: bold;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}

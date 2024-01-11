@@ -1,0 +1,62 @@
+{
+  "en-us": {
+    "name": "Easter Fiesta",
+    "game_type": "Slot",
+    "release_on": "January, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Free Game", "Buy Free Games", "Wild Multiplier", "Eliminate Low Payout Symbols"],
+    "slot_type": "5x3",
+    "paylines": "5",
+    "reels": "5",
+    "volatility": "Medium-Low",
+    "symbols": ["Free Game Scatter", "Wild", "6 High Payout Symbols", "4 Low Payout Symbols"],
+    "RTP": "96%",
+    "maximum_exposure": "1,116x",
+    "Similar Games": ["60004", "60009", "60022"]
+  },
+  "zh-cn": {
+    "name": "彩蛋狂欢",
+    "game_type": "老虎机",
+    "release_on": "1 月, 2024",
+    "compatibility": ["Windows", "iOS", "安卓", "H5"],
+    "feature": ["免费游戏", "购买免费游戏", "百搭倍乘数", "消除低赔符号"],
+    "slot_type": "5x3",
+    "paylines": "5",
+    "reels": "5",
+    "volatility": "中低",
+    "symbols": ["免费游戏分散", "百搭", "6 高赔符号", "4 低赔符号"],
+    "RTP": "96%",
+    "maximum_exposure": "1,116x",
+    "Similar Games": ["60004", "60009", "60022"]
+  },
+  "th-th": {
+    "name": "เทศกาล อีสเตอร์",
+    "game_type": "สล็อต",
+    "release_on": "มกราคม, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["เกมฟรี", "ซื้อเกมฟรี", "ตัวทวีคูณไวลด์", "กำจัดสัญลักษณ์การจ่ายเงินต่ำ"],
+    "slot_type": "5x3",
+    "paylines": "5",
+    "reels": "5",
+    "volatility": "กลาง-ต่ำ",
+    "symbols": ["กระจายเกมฟรี", "ไวล์ด", "6 สัญลักษณ์การจ่ายเงินสูง", "4 สัญลักษณ์การจ่ายเงินต่ำ"], 
+    "RTP": "96%",
+    "maximum_exposure": "1,116x",
+    "Similar Games": ["60004", "60009", "60022"]
+  },
+  "ms-ms": {
+    "name": "Easter Fiesta",
+    "game_type": "Slot",
+    "release_on": "Januari, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Permainan Percuma", "Beli Permainan Percuma", "Pengganda Liar", "Hapuskan Simbol Pembayaran Rendah"],
+    "slot_type": "5x3",
+    "paylines": "5",
+    "reels": "5",
+    "volatility": "Sederhana-Rendah",
+    "symbols": ["Scatter Permainan Percuma", "Liar", "6 Simbol Bayaran Tinggi", "4 Simbol Bayaran Rendah"],
+    "RTP": "96%",
+    "maximum_exposure": "1,116x",
+    "Similar Games": ["60004", "60009", "60022"]
+  }
+}

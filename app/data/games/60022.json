@@ -1,0 +1,62 @@
+{
+  "en-us": {
+    "name": "Frosty Fortunes",
+    "game_type": "Slot",
+    "release_on": "January, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Free Game", "Buy Free Games", "Sticky Wild Reel", "Symbol Becomes Wild"],
+    "slot_type": "5x4",
+    "paylines": "40",
+    "reels": "5",
+    "volatility": "Medium",
+    "symbols": ["Free Game Scatter", "Wild", "5 High Payout Symbols", "5 Low Payout Symbols"],
+    "RTP": "96%",
+    "maximum_exposure": "480x",
+    "Similar Games": ["60007", "60011", "60018"]
+  },
+  "zh-cn": {
+    "name": "冰霜财富",
+    "game_type": "老虎机",
+    "release_on": "1 月, 2024",
+    "compatibility": ["Windows", "iOS", "安卓", "H5"],
+    "feature": ["免费游戏", "购买免费游戏", "粘连百搭卷轴", "符号变成百搭"],
+    "slot_type": "5x4",
+    "paylines": "40",
+    "reels": "5",
+    "volatility": "中",
+    "symbols": ["免费游戏分散", "百搭", "5 高赔符号", "5 低赔符号"],
+    "RTP": "96%",
+    "maximum_exposure": "480x",
+    "Similar Games": ["60007", "60011", "60018"]
+  },
+  "th-th": {
+    "name": "ล่าสมบัติ เมืองหิมะ",
+    "game_type": "สล็อต",
+    "release_on": "มกราคม, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["เกมฟรี", "ซื้อเกมฟรี", "รอกป่าเหนียว", "สัญลักษณ์กลายเป็นสัญลักษณ์เสริม"],
+    "slot_type": "5x4",
+    "paylines": "40",
+    "reels": "5",
+    "volatility": "ปานกลาง",
+    "symbols": ["กระจายเกมฟรี", "ไวล์ด", "5 สัญลักษณ์การจ่ายเงินสูง", "5 สัญลักษณ์การจ่ายเงินต่ำ"], 
+    "RTP": "96%",
+    "maximum_exposure": "480x",
+    "Similar Games": ["60007", "60011", "60018"]
+  },
+  "ms-ms": {
+    "name": "Frosty Fortunes",
+    "game_type": "Slot",
+    "release_on": "Januari, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Permainan Percuma", "Beli Permainan Percuma", "Kekili Liar Melekit", "Simbol Menjadi Liar"],
+    "slot_type": "5x4",
+    "paylines": "40",
+    "reels": "5",
+    "volatility": "Sederhana",
+    "symbols": ["Scatter Permainan Percuma", "Liar", "5 Simbol Bayaran Tinggi", "5 Simbol Bayaran Rendah"],
+    "RTP": "96%",
+    "maximum_exposure": "480x",
+    "Similar Games": ["60007", "60011", "60018"]
+  }
+}

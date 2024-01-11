@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "aero";
+  src: url("../../../assets/fonts/Aero.ttf");
+}
+
+.play_btn {
+  position: relative;
+  cursor: pointer;
+  img {
+    width: 250px;
+  }
+  span {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 100%;
+    transform: translateY(-50%);
+    font-size: clamp(15px, 4vmin, 25px);
+    font-family: "aero";
+    text-align: center;
+  }
+}
+
+.ios_btn,
+.android_btn {
+  position: relative;
+  cursor: pointer;
+
+  img {
+    width: 180px;
+  }
+  span {
+    position: absolute;
+    top: 45%;
+    left: 24%;
+    width: 60%;
+    text-align: center;
+    transform: translateY(-50%);
+    font-size: 16px;
+    white-space: nowrap;
+  }
+}
+
+.contact_btn {
+  position: relative;
+  cursor: pointer;
+
+  img {
+    width: 220px;
+  }
+  span {
+    position: absolute;
+    top: 45%;
+    left: 24%;
+    width: 60%;
+    text-align: center;
+    transform: translateY(-50%);
+    font-size: 18px;
+    white-space: nowrap;
+  }
+}

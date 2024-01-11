@@ -1,0 +1,21 @@
+.ourbrand {
+  .content {
+    .section_title {
+      margin-bottom: 20px;
+    }
+    .brands {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      .brand {
+        border: solid 2px #ff9a00;
+        text-align: center;
+        padding: 20px;
+        img {
+          margin-bottom: 10px;
+          width: 50px;
+        }
+      }
+    }
+  }
+}

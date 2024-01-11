@@ -1,0 +1,29 @@
+.game_listing {
+  width: 90%;
+  max-width: 1000px;
+  margin-bottom: 50px;
+
+  .game_grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 20px;
+
+    .game {
+      width: 100%;
+      margin-top: 20px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .game_listing {
+    .game_grid {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+  }
+}

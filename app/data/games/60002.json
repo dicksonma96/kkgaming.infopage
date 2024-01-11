@@ -1,0 +1,62 @@
+{
+  "en-us": {
+    "name": "Lagertha's Wild Hunt",
+    "game_type": "Slot",
+    "release_on": "January, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Free Game", "Buy Free Games", "Free Game Retrigger", "Sticky Wild Multiplier"],
+    "slot_type": "5x4",
+    "paylines": "40",
+    "reels": "5",
+    "volatility": "High",
+    "symbols": ["Free Game Scatter", "Wild Multiplier", "6 High Payout Symbols", "5 Low Payout Symbols"],
+    "RTP": "95%",
+    "maximum_exposure": "5,348x",
+    "Similar Games": ["60007", "60009", "60015"]
+  },
+  "zh-cn": {
+    "name": "拉格萨航旅",
+    "game_type": "老虎机",
+    "release_on": "1 月, 2024",
+    "compatibility": ["Windows", "iOS", "安卓", "H5"],
+    "feature": ["免费游戏", "购买免费游戏", "免费游戏再触发", "粘连百搭倍乘数"],
+    "slot_type": "5x4",
+    "paylines": "40",
+    "reels": "5",
+    "volatility": "高",
+    "symbols": ["免费游戏分散", "百搭倍乘数", "6 高赔符号", "5 低赔符号"],
+    "RTP": "95%",
+    "maximum_exposure": "5,348x",
+    "Similar Games": ["60007", "60009", "60015"]
+  },
+  "th-th": {
+    "name": "ลาเกิร์ธา นักล่า",
+    "game_type": "สล็อต",
+    "release_on": "มกราคม, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["เกมฟรี", "ซื้อเกมฟรี", "รีทริกเกอร์เกมฟรี", "Sticky Wild ตัวคูณ"],
+    "slot_type": "5x4",
+    "paylines": "40",
+    "reels": "5",
+    "volatility": "สูง",
+    "symbols": ["กระจายเกมฟรี", "ตัวทวีคูณไวลด์", "6 สัญลักษณ์การจ่ายเงินสูง", "5 สัญลักษณ์การจ่ายเงินต่ำ"], 
+    "RTP": "95%",
+    "maximum_exposure": "5,348x",
+    "Similar Games": ["60007", "60009", "60015"]
+  },
+  "ms-ms": {
+    "name": "Lagertha's Wild Hunt",
+    "game_type": "Slot",
+    "release_on": "Januari, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Permainan Percuma", "Beli Permainan Percuma", "Pencetus Semula Permainan Percuma", "Pengganda Liar Melekit"],
+    "slot_type": "5x4",
+    "paylines": "40",
+    "reels": "5",
+    "volatility": "Tinggi",
+    "symbols": ["Scatter Permainan Percuma", "Pengganda Liar", "6 Simbol Bayaran Tinggi", "5 Simbol Bayaran Rendah"],
+    "RTP": "95%",
+    "maximum_exposure": "5,348x",
+    "Similar Games": ["60007", "60009", "60015"]
+  }
+}
