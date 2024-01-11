@@ -1,4 +1,6 @@
 import React from "react";
+import { readFileSync } from "fs";
+import path from "path";
 import Image from "next/image";
 import "../style.scss";
 import Link from "next/link";
@@ -115,10 +117,12 @@ function GameDetailContent({ details, similarGames, imgUrl }) {
 
 async function GameDetail({ params }) {
   try {
-    const file = await fs.readFile(
-      `app/data/games/${params.gameId}.json`,
-      "utf8"
+    const filePath = path.join(
+      process.cwd(),
+      "app/data/games/",
+      `${params.gameId}.json`
     );
+    const file = await readFileSync(filePath, "utf8");
     const data = JSON.parse(file);
     const langData = () => {
       return data[useLocale()] ? data[useLocale()] : data["en-us"];
