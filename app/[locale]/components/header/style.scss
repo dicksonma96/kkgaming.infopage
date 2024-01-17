@@ -44,9 +44,9 @@
 
 @media only screen and (max-width: 800px) {
   .mainnav {
-    display: none;
+    display: none !important;
   }
   .language_picker {
-    display: none;
+    display: none !important;
   }
 }
