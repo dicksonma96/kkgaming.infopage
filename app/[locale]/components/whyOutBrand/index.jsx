@@ -56,7 +56,7 @@ function WhyOurBrand() {
         <div className="brands">
           {brandsInfo.map((info, index) => (
             <div className="brand colc">
-              <Image src={info.icon} />
+              <Image src={info.icon} alt={info.desc} />
               <p>{info.desc}</p>
             </div>
           ))}

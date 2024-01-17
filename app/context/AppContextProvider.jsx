@@ -1,6 +1,7 @@
 "use client";
 
 import { createContext, useContext, useState, useEffect } from "react";
+
 const AppContext = createContext();
 
 export const AppContextProvider = ({ children }) => {
@@ -8,7 +9,6 @@ export const AppContextProvider = ({ children }) => {
   const [mediaQuery, setMediaQuery] = useState("big");
   const [getWidth, setGetWidth] = useState(0);
   const [iframeUrl, setIframeUrl] = useState("");
- 
 
   //--MediaQuery
   useEffect(() => {
@@ -18,7 +18,7 @@ export const AppContextProvider = ({ children }) => {
       else if (screenWidth >= 800) setMediaQuery("medium");
       else if (screenWidth < 800) setMediaQuery("small");
 
-      setGetWidth(screenWidth)
+      setGetWidth(screenWidth);
     };
 
     window.addEventListener("resize", checkSize);
@@ -28,14 +28,13 @@ export const AppContextProvider = ({ children }) => {
     };
   }, []);
 
-  const updateIframeUrl = (url)=>{
-    if(mediaQuery == 'small'){
-     window.open(url , "_blank");  
+  const updateIframeUrl = (url) => {
+    if (mediaQuery == "small") {
+      window.open(url, "_blank");
+    } else {
+      setIframeUrl(url);
     }
-    else{
-    setIframeUrl(url)
-    }
-  }
+  };
 
   return (
     <AppContext.Provider
@@ -43,7 +42,7 @@ export const AppContextProvider = ({ children }) => {
         mediaQuery,
         iframeUrl,
         getWidth,
-        setIframeUrl:updateIframeUrl
+        setIframeUrl: updateIframeUrl,
       }}
     >
       {children}

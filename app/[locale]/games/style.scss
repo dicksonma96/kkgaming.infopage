@@ -44,11 +44,41 @@
           #295474 8.39%,
           #121e26 100%
         );
-        img {
+        .detail_img {
           width: 300px;
           margin-right: 20px;
           align-self: flex-start;
+          position: relative;
+          border-radius: 10px;
+          overflow: hidden;
+          img {
+            width: 100%;
+          }
+
+          .game_overlay {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            opacity: 0;
+            transition: 0.2s;
+            button {
+              width: 80%;
+              font-size: 15px;
+              text-align: center;
+            }
+          }
+
+          &:hover {
+            .game_overlay {
+              opacity: 1;
+            }
+          }
         }
+
         .detail_list {
           color: white;
           gap: 8px;
@@ -106,6 +136,43 @@
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 15vw;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .game_details {
+    .content {
+      .detail_frame {
+        .detail_body {
+          flex-direction: column;
+          .detail_img {
+            width: 100%;
+            max-width: 400px;
+            margin-right: 20px;
+            align-self: center;
+            margin-bottom: 70px;
+            overflow: visible;
+
+            .game_overlay {
+              opacity: 1;
+              background: none;
+              justify-content: flex-end;
+
+              button {
+                width: 100%;
+                margin-bottom: -50px;
+              }
+            }
+          }
+        }
+      }
+      .similar_games {
+        width: 100%;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
       }
     }
   }

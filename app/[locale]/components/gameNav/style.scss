@@ -31,32 +31,30 @@
   z-index: 999;
   max-width: 250px;
   width: 90%;
+  margin: 30px 0 50px;
+  display: none;
 
   .selected_game {
-    padding: 10px;
-    background: linear-gradient(
-      180deg,
-      rgba(0, 255, 255, 0.7) 0%,
-      rgba(2, 30, 205, 0.7) 100%
-    );
-    color: white;
+    padding: 5px 10px;
+    color: #ff9a00;
     justify-content: space-between;
     width: 100%;
-    border: solid 1px #00ffff;
-    border-radius: 999px;
+    font-size: 20px;
+    border: solid 1px #ff9a00;
+    border-radius: 5px;
   }
   .game_dropdown {
     position: absolute;
     top: 100%;
     margin-top: 10px;
     width: 100%;
-    border: solid 1px #00ffff;
-    background-color: #010b49;
+    border: solid 1px #ff9a00;
+    background-color: black;
     border-radius: 10px;
     padding: 5px;
 
     .option {
-      color: #00ffff;
+      color: white;
       padding: 10px;
       border-radius: 2px;
       cursor: pointer;
@@ -65,5 +63,14 @@
         background-color: rgba(255, 255, 255, 0.2);
       }
     }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .game_nav {
+    display: none;
+  }
+  .small_game_nav {
+    display: flex;
   }
 }

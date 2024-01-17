@@ -4,7 +4,17 @@ import Image from "next/image";
 import Icon from "../../../assets/images/18.svg";
 
 function ClientContent({ content }) {
-  const [hide, setHide] = useState(localStorage.getItem("responsible_agreed"));
+  const [hide, setHide] = useState(true);
+
+  useEffect(() => {
+    let isAgreed = localStorage?.getItem("responsible_agreed");
+    if (isAgreed) {
+      setHide(true);
+    } else {
+      setHide(false);
+    }
+  }, []);
+
   return hide ? (
     <></>
   ) : (
@@ -18,7 +28,7 @@ function ClientContent({ content }) {
             className="confirm"
             onClick={() => {
               setHide(true);
-              localStorage.setItem("responsible_agreed", "true");
+              localStorage?.setItem("responsible_agreed", "true");
             }}
           >
             {content.confirm}

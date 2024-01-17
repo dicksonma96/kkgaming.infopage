@@ -24,3 +24,32 @@
     }
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .feature {
+    .content {
+      .section_title {
+        margin-bottom: 20px;
+      }
+      .feature_items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .feature_item {
+          flex: 1;
+          border-bottom: solid 3px #ff9a00;
+          padding-bottom: 20px;
+          img {
+            width: 70px;
+            margin-bottom: 10px;
+          }
+          span {
+            white-space: pre-line;
+            font-weight: normal;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}

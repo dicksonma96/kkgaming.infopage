@@ -1,19 +1,18 @@
-"use client"
+"use client";
 import Image from "next/image";
 import Logo from "../../assets/images/logo.png";
-import { useRouter } from 'next/navigation'
-
+import { useRouter } from "next/navigation";
 
 function Brandlogo({ style, className }) {
-  const router = useRouter()
+  const router = useRouter();
   return (
     <Image
       src={Logo}
-      alt="Megah5 Logo"
+      alt="KKGaming Logo"
       className={`logo ${className}`}
       style={style}
       priority
-      onClick={()=>router.push('/')}
+      onClick={() => router.push("/")}
     />
   );
 }

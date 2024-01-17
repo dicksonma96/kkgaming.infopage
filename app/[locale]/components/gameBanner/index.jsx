@@ -15,7 +15,7 @@ function GameBanner() {
           <br />
           <p>{t("banner-desc")}</p>
         </div>
-        <Image className="games_model" src={GamesModel} />
+        <Image className="games_model" src={GamesModel} alt="Game Model" />
       </div>
     </section>
   );

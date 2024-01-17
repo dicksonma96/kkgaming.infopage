@@ -10,9 +10,12 @@ import { useLocale } from "next-intl";
 import BackIcon from "../../../assets/images/icons/back.png";
 import GameCard from "../../components/gameCard";
 import GetGamelist from "../../utils/getGamelist";
+import { PlayButton } from "../../components/button";
 
 function GameDetailContent({ details, similarGames, imgUrl }) {
   const t = useTranslations("game-detail");
+  const t2 = useTranslations("buttons");
+  const demoUrl = `https://smakermicsvc.back138.com/api/opgateway/v1/op/demo/LaunchGame?opId=kkgaming&currency=Fun&gameCode=${details.id}`;
 
   return (
     <main className="games colc">
@@ -28,10 +31,16 @@ function GameDetailContent({ details, similarGames, imgUrl }) {
               <strong>{details.name}</strong>
             </div>
             <div className="detail_body row">
-              <img
-                src={imgUrl + "/Mobile/" + details.id + ".png"}
-                alt={details.name}
-              />
+              <div className="detail_img rowc">
+                <img
+                  src={imgUrl + "/Mobile/" + details.id + ".png"}
+                  alt={details.name}
+                />
+                <div className="game_overlay colc">
+                  <PlayButton text={t2("play-btn")} launchUrl={demoUrl} />
+                </div>
+              </div>
+
               <div className="detail_list col">
                 <div className="detail_item row">
                   <span>{t("game-type")} :</span>

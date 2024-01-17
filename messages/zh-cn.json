@@ -59,19 +59,19 @@
     }
   },
   "game-detail": {
-    "all-games": "ALL GAMES",
-    "similar-game": "SIMILAR GAME",
-    "game-type": "Game type",
-    "released-on": "Release on",
-    "compatibility": "Compatibility",
-    "feature": "Gameplay feature",
-    "slot-type": "Slot type",
-    "paylines": "Paylines",
-    "reels": "Reels",
-    "volatility": "Volatility",
-    "symbols": "Symbols",
-    "RTP": "RTP",
-    "maximum-exposure": "Maximum feature exposure"
+    "all-games": "全部游戏",
+    "similar-game": "相似游戏",
+    "game-type": "游戏类型",
+    "released-on": "发行日期",
+    "compatibility": "兼容性",
+    "feature": "游戏特点",
+    "slot-type": "老虎机类型",
+    "paylines": "赔付线",
+    "reels": "卷轴",
+    "volatility": "波动性",
+    "symbols": "符号",
+    "RTP": "返奖率",
+    "maximum-exposure": "最大特性曝光"
   },
   "main-nav": {
     "home": "主页",
@@ -83,7 +83,7 @@
   "footer_tagline": "运气与乐趣相遇的地方",
   "buttons": {
     "play-btn": "立即玩",
-    "game-details": "GAME DETAILS",
+    "game-details": "游戏详情",
     "submit-btn": "提交"
   },
   "responsive-popup": {

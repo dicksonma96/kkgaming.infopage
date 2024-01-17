@@ -3,6 +3,8 @@ import { useLocale } from "next-intl";
 import GetGamelist from "../../utils/getGamelist";
 import GameCard from "../gameCard";
 import Link from "next/link";
+import { Suspense } from "react";
+import setTimeoutPromise from "../../utils/timeoutPromise";
 import "./style.scss";
 
 function HomeGames() {
@@ -23,6 +25,7 @@ function HomeGames() {
 }
 
 async function GameList() {
+  await setTimeoutPromise(1000);
   const games = await GetGamelist(useLocale());
   const filteredGame = () => {
     return games.Game.slice(0, 4);
@@ -35,6 +38,10 @@ async function GameList() {
       })}
     </div>
   );
+}
+
+function SkeletonLoader() {
+  return <div>Skeleton</div>;
 }
 
 export default HomeGames;

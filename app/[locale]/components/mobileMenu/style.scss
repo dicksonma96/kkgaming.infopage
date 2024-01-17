@@ -1,14 +1,16 @@
 .menu_btn {
   max-width: 60px;
   width: 12vmin;
+  display: none;
 }
 .menu_dropdown {
   position: absolute;
   top: 100%;
-  right: 0px;
+  right: 10px;
   z-index: 99;
   background-color: rgba(0, 0, 0, 0.8);
   padding: 5px;
+  display: none;
   .menu {
     gap: 10px;
     padding: 10px;
@@ -22,7 +24,7 @@
   .lang_menu {
     padding: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 5px;
     border-left: 1px solid rgba(255, 255, 255, 0.3);
     .lang_item {
@@ -33,5 +35,14 @@
         width: 22px;
       }
     }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .menu_dropdown {
+    display: flex;
+  }
+  .menu_btn {
+    display: block;
   }
 }

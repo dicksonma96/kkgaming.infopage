@@ -1,37 +1,35 @@
-import React from "react";
 import { useTranslations } from "next-intl";
+import ClientContent from "./clientContent";
+import { sendEmail } from "../../utils/sendEmail";
 import "./style.scss";
 
 function Contact() {
-  const t = useTranslations("home.contact");
+  const t = useTranslations();
+  const label = {
+    title: t("home.contact.title"),
+    name: t("home.contact.name"),
+    company: t("home.contact.company"),
+    email: t("home.contact.email"),
+    phone_number: t("home.contact.phone_number"),
+    message: t("home.contact.message"),
+    submit: t("buttons.submit-btn"),
+  };
+
+  async function SendEmail(formData) {
+    "use server";
+    try {
+      console.log("sending");
+      let res = await sendEmail("dicksonma96@gmail.com", "subject", "HIHI");
+      return res;
+    } catch (e) {
+      // console.log(e);
+    }
+  }
 
   return (
-    <section className="contact" id="contact">
-      <div className="content col">
-        <h2 className="section_title">{t("title")}</h2>
-        <label className="input col">
-          <span>{t("name")}</span>
-          <input type="text" />
-        </label>
-        <label className="input col">
-          <span>{t("company")}</span>
-          <input type="text" />
-        </label>
-        <label className="input col">
-          <span>{t("email")}</span>
-          <input type="text" />
-        </label>
-        <label className="input col">
-          <span>{t("phone_number")}</span>
-          <input type="text" />
-        </label>
-        <label className="input col">
-          <span>{t("message")}</span>
-          <textarea />
-        </label>
-        <button className="cta_btn1">Submit</button>
-      </div>
-    </section>
+    <>
+      <ClientContent label={label} submit={SendEmail} />
+    </>
   );
 }
 

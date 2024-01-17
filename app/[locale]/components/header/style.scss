@@ -15,7 +15,7 @@
   }
 
   .logo {
-    width: 25vmin;
+    width: 45vmin;
     max-width: 300px;
     height: auto;
     margin-right: auto;
@@ -39,5 +39,14 @@
 
   .logo {
     max-width: 200px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .mainnav {
+    display: none;
+  }
+  .language_picker {
+    display: none;
   }
 }

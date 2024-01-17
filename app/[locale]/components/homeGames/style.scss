@@ -9,7 +9,7 @@
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 20px;
-      width: 80%;
+      width: 90%;
       img {
         width: 100%;
         cursor: pointer;
@@ -17,6 +17,23 @@
     }
     .cta_btn1 {
       align-self: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .home_games {
+    .content {
+      text-align: center;
+      .game_grid {
+        width: 100%;
+        padding: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        img {
+          width: 100%;
+          cursor: pointer;
+        }
+      }
     }
   }
 }

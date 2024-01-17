@@ -59,19 +59,19 @@
     }
   },
   "game-detail": {
-    "all-games": "ALL GAMES",
-    "similar-game": "SIMILAR GAME",
-    "game-type": "Game type",
-    "released-on": "Release on",
-    "compatibility": "Compatibility",
-    "feature": "Gameplay feature",
-    "slot-type": "Slot type",
-    "paylines": "Paylines",
-    "reels": "Reels",
-    "volatility": "Volatility",
-    "symbols": "Symbols",
-    "RTP": "RTP",
-    "maximum-exposure": "Maximum feature exposure"
+    "all-games": "เกมส์ทั้งหมด",
+    "similar-game": "เกมที่คล้ายกัน",
+    "game-type": "ประเภทเกม",
+    "released-on": "วางจำหน่ายเมื่อ",
+    "compatibility": "ความเข้ากันได้",
+    "feature": "คุณสมบัติการเล่นเกม",
+    "slot-type": "ประเภทสล็อต",
+    "paylines": "เพย์ไลน์",
+    "reels": "วงล้อ",
+    "volatility": "ความผันผวน",
+    "symbols": "สัญลักษณ์",
+    "RTP": "อัตราการคืนเงินให้ผู้เล่น",
+    "maximum-exposure": "อัตราการเปิดเผยคุณสมบัติสูงสุด"
   },
   "main-nav": {
     "home": "หน้าหลัก",
@@ -83,7 +83,7 @@
   "footer_tagline": "ที่ซึ่งโชคมาพบกับความสนุก",
   "buttons": {
     "play-btn": "เล่นตอนนี้",
-    "game-details": "GAME DETAILS",
+    "game-details": "รายละเอียดเกม",
     "submit-btn": "ส่ง"
   },
   "responsive-popup": {

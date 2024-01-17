@@ -36,7 +36,7 @@ function Feature() {
         <div className="feature_items row">
           {featuresArr.map((item, index) => (
             <div className="feature_item col">
-              <Image src={item.img} />
+              <Image src={item.img} alt={item.label} />
               <span>{item.label}</span>
             </div>
           ))}
