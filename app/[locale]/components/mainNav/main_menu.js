@@ -11,8 +11,8 @@ export default [
     label: "games",
     path: "/games",
   },
-  {
-    label: "contact",
-    path: "/#contact",
-  },
+  // {
+  //   label: "contact",
+  //   path: "/#contact",
+  // },
 ];
