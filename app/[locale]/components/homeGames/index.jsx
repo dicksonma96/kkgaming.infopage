@@ -5,6 +5,7 @@ import GameCard from "../gameCard";
 import Link from "next/link";
 import { Suspense } from "react";
 import setTimeoutPromise from "../../utils/timeoutPromise";
+import Skeleton from "../skeleton";
 import "./style.scss";
 
 function HomeGames() {
@@ -15,7 +16,11 @@ function HomeGames() {
       <div className="content col">
         <h2 className="section_title">{t("home.games.title")}</h2>
         <p>{t("home.games.desc")}</p>
-        <GameList />
+        <div className="game_grid">
+          <Suspense fallback={<SkeletonLoader />}>
+            <GameList />
+          </Suspense>
+        </div>
         <Link className="cta_btn1" href={"/games"}>
           {t("buttons.play-btn")}
         </Link>
@@ -25,23 +30,30 @@ function HomeGames() {
 }
 
 async function GameList() {
-  await setTimeoutPromise(1000);
+  await setTimeoutPromise(2000);
   const games = await GetGamelist(useLocale());
   const filteredGame = () => {
     return games.Game.slice(0, 4);
   };
   return (
-    <div className="game_grid">
+    <>
       {filteredGame().map((game, index) => {
         let url = games.ThumbnailPath;
         return <GameCard key={index} game={game} imgUrl={url} />;
       })}
-    </div>
+    </>
   );
 }
 
 function SkeletonLoader() {
-  return <div>Skeleton</div>;
+  return (
+    <>
+      <Skeleton />
+      <Skeleton />
+      <Skeleton />
+      <Skeleton />
+    </>
+  );
 }
 
 export default HomeGames;

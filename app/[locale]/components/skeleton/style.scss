@@ -1,0 +1,31 @@
+.skeleton {
+  background-color: rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+
+  &::after {
+    content: "";
+    background: linear-gradient(
+      to right,
+      transparent,
+      rgba(255, 255, 255, 0.1),
+      transparent
+    );
+    width: 40%;
+    height: 200%;
+    position: absolute;
+    left: 0;
+    top: -50%;
+    animation: shrine 2s infinite;
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes shrine {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 200%;
+  }
+}

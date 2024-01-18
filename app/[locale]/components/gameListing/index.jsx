@@ -1,10 +1,7 @@
 import "./style.scss";
 import GameCard from "../../components/gameCard";
-import { useTranslations } from "next-intl";
 
 function GameListing({ games }) {
-  const t = useTranslations("buttons");
-
   return (
     <div className="game_listing">
       <div className="game_grid">

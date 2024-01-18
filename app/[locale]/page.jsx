@@ -30,7 +30,7 @@ export default async function Home({ params }) {
       <VisionMission />
       <WhyOurBrand />
       <HomeGames />
-      <Contact />
+      {/* <Contact /> */}
     </main>
   );
 }

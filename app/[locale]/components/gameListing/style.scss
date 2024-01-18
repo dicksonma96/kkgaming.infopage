@@ -17,6 +17,12 @@
         width: 100%;
       }
     }
+
+    .skeleton {
+      width: 100%;
+      aspect-ratio: 1 /2;
+      border-radius: 10px;
+    }
   }
 }
 

@@ -1,4 +1,6 @@
 .home_games {
+  padding-bottom: 60px;
+
   .content {
     .section_title {
       margin-bottom: 20px;
@@ -13,6 +15,12 @@
       img {
         width: 100%;
         cursor: pointer;
+      }
+
+      .skeleton {
+        width: 100%;
+        aspect-ratio: 1 /2;
+        border-radius: 10px;
       }
     }
     .cta_btn1 {

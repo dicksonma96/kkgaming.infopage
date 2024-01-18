@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Icon from "../../../assets/images/18.svg";
+import Link from "next/link";
 
 function ClientContent({ content }) {
   const [hide, setHide] = useState(true);
@@ -33,7 +34,9 @@ function ClientContent({ content }) {
           >
             {content.confirm}
           </button>
-          <button className="cancel">{content.cancel}</button>
+          <Link className="cancel rowc" href="https://www.google.com">
+            {content.cancel}
+          </Link>
         </div>
       </div>
     </div>
