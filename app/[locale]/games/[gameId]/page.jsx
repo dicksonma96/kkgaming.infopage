@@ -12,6 +12,22 @@ import GameCard from "../../components/gameCard";
 import GetGamelist from "../../utils/getGamelist";
 import { PlayButton } from "../../components/button";
 
+export async function generateMetadata({ params }) {
+  const gamesList = await GetGamelist(useLocale());
+  let selected_game = gamesList?.Game.find(
+    (game) => game.GameId == params.gameId
+  );
+  return {
+    title: selected_game.GameName,
+    description: selected_game.GameName,
+    openGraph: {
+      images: [
+        `${gamesList.ThumbnailPath + "/Mobile/" + selected_game.ImageUrl}`,
+      ],
+    },
+  };
+}
+
 function GameDetailContent({ details, similarGames, imgUrl }) {
   const t = useTranslations("game-detail");
   const t2 = useTranslations("buttons");

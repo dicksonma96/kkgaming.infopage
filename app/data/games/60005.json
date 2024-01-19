@@ -1,0 +1,62 @@
+{
+  "en-us": {
+    "name": "Tiki Valley",
+    "game_type": "Slot",
+    "release_on": "January, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Multiplied Winning", "Wild Reel", "Lucky Fortune"],
+    "slot_type": "5x3",
+    "paylines": "50",
+    "reels": "5",
+    "volatility": "High",
+    "symbols": ["Free Game Scatter", "Wild", "5 High Payout Symbols", "6 Low Payout Symbols"],
+    "RTP": "96.22%",
+    "maximum_exposure": "4,830x",
+    "Similar Games": ["60009", "60011", "60021"]
+  },
+  "zh-cn": {
+    "name": "蒂基谷",
+    "game_type": "老虎机",
+    "release_on": "1 月, 2024",
+    "compatibility": ["Windows", "iOS", "安卓", "H5"],
+    "feature": ["倍数获胜", "百搭卷轴", "幸运财富"],
+    "slot_type": "5x3",
+    "paylines": "50",
+    "reels": "5",
+    "volatility": "高",
+    "symbols": ["免费游戏分散", "百搭", "5 高赔符号", "6 低赔符号"],
+    "RTP": "96.22%",
+    "maximum_exposure": "4,830x",
+    "Similar Games": ["60009", "60011", "60021"]
+  },
+  "th-th": {
+    "name": "เกาะมหาสมบัติ",
+    "game_type": "สล็อต",
+    "release_on": "มกราคม, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["ชนะคูณ", "รอกป่า", "โชคดีโชคลาภ"],
+    "slot_type": "5x3",
+    "paylines": "50",
+    "reels": "5",
+    "volatility": "สูง",
+    "symbols": ["กระจายเกมฟรี", "ไวล์ด", "5 สัญลักษณ์การจ่ายเงินสูง", "6 สัญลักษณ์การจ่ายเงินต่ำ"], 
+    "RTP": "96.22%",
+    "maximum_exposure": "4,830x",
+    "Similar Games": ["60009", "60011", "60021"]
+  },
+  "ms-ms": {
+    "name": "Tiki Valley",
+    "game_type": "Slot",
+    "release_on": "Januari, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Kemenangan Berganda", "Kekili Liar", "Rezeki Bertuah"],
+    "slot_type": "5x3",
+    "paylines": "50",
+    "reels": "5",
+    "volatility": "Tinggi",
+    "symbols": ["Scatter Permainan Percuma", "Liar", "5 Simbol Bayaran Tinggi", "6 Simbol Bayaran Rendah"],
+    "RTP": "96.22%",
+    "maximum_exposure": "4,830x",
+    "Similar Games": ["60009", "60011", "60021"]
+  }
+}

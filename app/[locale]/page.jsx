@@ -15,13 +15,12 @@ export async function generateMetadata({ params: { locale } }) {
     title: t("home.title") + " " + t("home.description"),
     description: t("home.description"),
     openGraph: {
-      images: ["../assets/images/logo.png"],
+      images: ["../assets/images/logo2.png"],
     },
   };
 }
 
 export default async function Home({ params }) {
-  console.log(params);
   return (
     <main className="flex flex-col">
       <HomeBanner />

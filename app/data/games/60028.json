@@ -1,0 +1,62 @@
+{
+  "en-us": {
+    "name": "Celestial Creatures",
+    "game_type": "Slot",
+    "release_on": "January, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Re-spin", "Multiplier", "Free Game Retrigger"],
+    "slot_type": "5x3",
+    "paylines": "25",
+    "reels": "5",
+    "volatility": "Medium-High",
+    "symbols": ["Free Game Scatter", "Wild", "4 High Payout Symbols", "4 Low Payout Symbols"],
+    "RTP": "95%",
+    "maximum_exposure": "3,000x",
+    "Similar Games": ["60001", "60003", "60013"]
+  },
+  "zh-cn": {
+    "name": "天界神兽",
+    "game_type": "老虎机",
+    "release_on": "1 月, 2024",
+    "compatibility": ["Windows", "iOS", "安卓", "H5"],
+    "feature": ["再旋转", "倍乘数", "免费游戏再触发"],
+    "slot_type": "5x3",
+    "paylines": "25",
+    "reels": "5",
+    "volatility": "中高",
+    "symbols": ["免费游戏分散", "百搭", "4 高赔符号", "4 低赔符号"],
+    "RTP": "95%",
+    "maximum_exposure": "3,000x",
+    "Similar Games": ["60001", "60003", "60013"]
+  },
+  "th-th": {
+    "name": "สัตว์สวรรค์",
+    "game_type": "สล็อต",
+    "release_on": "มกราคม, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["หมุนใหม่", "ตัวคูณ", "รีทริกเกอร์เกมฟรี"],
+    "slot_type": "5x3",
+    "paylines": "25",
+    "reels": "5",
+    "volatility": "ปานกลางสูง",
+    "symbols": ["กระจายเกมฟรี", "ไวล์ด", "4 สัญลักษณ์การจ่ายเงินสูง", "4 สัญลักษณ์การจ่ายเงินต่ำ"], 
+    "RTP": "95%",
+    "maximum_exposure": "3,000x",
+    "Similar Games": ["60001", "60003", "60013"]
+  },
+  "ms-ms": {
+    "name": "Celestial Creatures",
+    "game_type": "Slot",
+    "release_on": "Januari, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Berputar Semula", "Pengganda", "Pencetus Semula Permainan Percuma"],
+    "slot_type": "5x3",
+    "paylines": "25",
+    "reels": "5",
+    "volatility": "Sederhana-Tinggi",
+    "symbols": ["Scatter Permainan Percuma", "Liar", "4 Simbol Bayaran Tinggi", "4 Simbol Bayaran Rendah"],
+    "RTP": "95%",
+    "maximum_exposure": "3,000x",
+    "Similar Games": ["60001", "60003", "60013"]
+  }
+}

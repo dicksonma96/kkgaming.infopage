@@ -5,6 +5,11 @@ import MY from "../../../assets/images/icons/my.png";
 
 export default [
   {
+    value: "th-th",
+    icon: TH,
+    label: "Thai",
+  },
+  {
     value: "en-us",
     icon: EN,
     label: "English",
@@ -14,12 +19,7 @@ export default [
     icon: CN,
     label: "Chinese",
   },
-  {
-    value: "th-th",
-    icon: TH,
-    label: "Thai",
-  },
-  { value: "ms-ms", icon: MY, label: "Malay" },
+
   // {
   //   value: "zh-TW",
   //   icon: TW,

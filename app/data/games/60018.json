@@ -1,0 +1,62 @@
+{
+  "en-us": {
+    "name": "Shaman's Folklore",
+    "game_type": "Slot",
+    "release_on": "January, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Re-spin", "Sticky Symbol"],
+    "slot_type": "5x5",
+    "paylines": "3,125 Ways",
+    "reels": "5",
+    "volatility": "Medium",
+    "symbols": ["Wild", "6 High Payout Symbols", "4 Low Payout Symbols"],
+    "RTP": "95%",
+    "maximum_exposure": "2,104x",
+    "Similar Games": ["60001", "60003", "60028"]
+  },
+  "zh-cn": {
+    "name": "萨满民谣",
+    "game_type": "老虎机",
+    "release_on": "1 月, 2024",
+    "compatibility": ["Windows", "iOS", "安卓", "H5"],
+    "feature": ["再旋转", "粘连符号"],
+    "slot_type": "5x5",
+    "paylines": "3,125 方式",
+    "reels": "5",
+    "volatility": "中",
+    "symbols": ["百搭", "6 高赔符号", "4 低赔符号"],
+    "RTP": "95%",
+    "maximum_exposure": "2,104x",
+    "Similar Games": ["60001", "60003", "60028"]
+  },
+  "th-th": {
+    "name": "ขุมทรัพย์ อินเดียนแดง",
+    "game_type": "สล็อต",
+    "release_on": "มกราคม, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["หมุนใหม่", "สัญลักษณ์เหนียว"],
+    "slot_type": "5x5",
+    "paylines": "3,125 วิธี",
+    "reels": "5",
+    "volatility": "ปานกลาง",
+    "symbols": ["ไวล์ด", "6 สัญลักษณ์การจ่ายเงินสูง", "4 สัญลักษณ์การจ่ายเงินต่ำ"], 
+    "RTP": "95%",
+    "maximum_exposure": "2,104x",
+    "Similar Games": ["60001", "60003", "60028"]
+  },
+  "ms-ms": {
+    "name": "Shaman's Folklore",
+    "game_type": "Slot",
+    "release_on": "Januari, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Berputar Semula", "Simbol Melekit"],
+    "slot_type": "5x5",
+    "paylines": "3,125 Cara",
+    "reels": "5",
+    "volatility": "Sederhana",
+    "symbols": ["Liar", "6 Simbol Bayaran Tinggi", "4 Simbol Bayaran Rendah"],
+    "RTP": "95%",
+    "maximum_exposure": "2,104x",
+    "Similar Games": ["60001", "60003", "60028"]
+  }
+}

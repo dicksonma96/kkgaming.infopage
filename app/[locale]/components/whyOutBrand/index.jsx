@@ -52,7 +52,7 @@ function WhyOurBrand() {
   return (
     <section className="ourbrand">
       <div className="content col">
-        <h2 className="section_title">WHY OUR BRAND</h2>
+        <h2 className="section_title">{t("title")}</h2>
         <div className="brands">
           {brandsInfo.map((info, index) => (
             <div className="brand colc">

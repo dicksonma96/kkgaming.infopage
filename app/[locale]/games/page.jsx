@@ -11,11 +11,9 @@ export async function generateMetadata({ params: { locale } }) {
   return {
     title: t("games.title") + " " + t("games.description"),
     description: t("games.description"),
-    // openGraph: {
-    //   images: [
-    //     "https://fastly.picsum.photos/id/306/200/300.jpg?hmac=T-FQeWIc7YbLbcYdpyDGypNif0btJ8n5P4ozBJx8WgE",
-    //   ],
-    // },
+    openGraph: {
+      images: ["../assets/images/logo2.png"],
+    },
   };
 }
 
@@ -59,14 +57,14 @@ function GameNavWrapper() {
       value: "Slots",
       display: t("Slots"),
     },
-    {
-      value: "Arcade",
-      display: t("Arcade"),
-    },
-    {
-      value: "Table",
-      display: t("Table"),
-    },
+    // {
+    //   value: "Arcade",
+    //   display: t("Arcade"),
+    // },
+    // {
+    //   value: "Table",
+    //   display: t("Table"),
+    // },
   ];
   return <GameNav category={categories} />;
 }

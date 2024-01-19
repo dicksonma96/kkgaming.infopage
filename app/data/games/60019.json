@@ -1,0 +1,62 @@
+{
+  "en-us": {
+    "name": "Divne Creatures",
+    "game_type": "Slot",
+    "release_on": "January, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Bonus Game", "Multiplied Winning With Wild"],
+    "slot_type": "5x3",
+    "paylines": "10",
+    "reels": "5",
+    "volatility": "Medium",
+    "symbols": ["Bonus Game Scatter", "Wild", "4 High Payout Symbols", "5 Low Payout Symbols"],
+    "RTP": "97.09%",
+    "maximum_exposure": "1,000x",
+    "Similar Games": ["60005", "60008", "60021"]
+  },
+  "zh-cn": {
+    "name": "神秘灵兽",
+    "game_type": "老虎机",
+    "release_on": "1 月, 2024",
+    "compatibility": ["Windows", "iOS", "安卓", "H5"],
+    "feature": ["奖励游戏", "百搭加倍获胜"],
+    "slot_type": "5x3",
+    "paylines": "10",
+    "reels": "5",
+    "volatility": "中",
+    "symbols": ["奖励游戏分散", "百搭", "4 高赔符号", "5 低赔符号"],
+    "RTP": "97.09%",
+    "maximum_exposure": "1,000x",
+    "Similar Games": ["60005", "60008", "60021"]
+  },
+  "th-th": {
+    "name": "สัตว์ศักดิ์สิทธิ์อันลึกลับ",
+    "game_type": "สล็อต",
+    "release_on": "มกราคม, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["เกมโบนัส", "คูณการชนะด้วย Wild"],
+    "slot_type": "5x3",
+    "paylines": "10",
+    "reels": "5",
+    "volatility": "ปานกลาง",
+    "symbols": ["โบนัสเกมกระจาย", "ไวล์ด", "4 สัญลักษณ์การจ่ายเงินสูง", "5 สัญลักษณ์การจ่ายเงินต่ำ"], 
+    "RTP": "97.09%",
+    "maximum_exposure": "1,000x",
+    "Similar Games": ["60005", "60008", "60021"]
+  },
+  "ms-ms": {
+    "name": "Divine Creatures",
+    "game_type": "Slot",
+    "release_on": "Januari, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Permainan Bonus", "Didarabkan Kemenangan Dengan Liar"],
+    "slot_type": "5x3",
+    "paylines": "10",
+    "reels": "5",
+    "volatility": "Sederhana",
+    "symbols": ["Scatter Permainan Bonus", "Liar", "4 Simbol Bayaran Tinggi", "5 Simbol Bayaran Rendah"],
+    "RTP": "97.09%",
+    "maximum_exposure": "1,000x",
+    "Similar Games": ["60005", "60008", "60021"]
+  }
+}

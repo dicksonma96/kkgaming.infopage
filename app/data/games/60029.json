@@ -1,0 +1,62 @@
+{
+  "en-us": {
+    "name": "Wealthy Kiddo",
+    "game_type": "Slot",
+    "release_on": "January, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Cascade Win", "Random Multiplier", "Free Game Retrigger"],
+    "slot_type": "6x5",
+    "paylines": "Cluster Pay",
+    "reels": "6",
+    "volatility": "High",
+    "symbols": ["Free Game Scatter", "Multiplier", "4 High Payout Symbols", "5 Low Payout Symbols"],
+    "RTP": "96%",
+    "maximum_exposure": "10,000x",
+    "Similar Games": ["60000", "60001", "60003]
+  },
+  "zh-cn": {
+    "name": "财富童子",
+    "game_type": "老虎机",
+    "release_on": "1 月, 2024",
+    "compatibility": ["Windows", "iOS", "安卓", "H5"],
+    "feature": ["翻滚赢奖", "随机倍乘数", "免费游戏再触发"],
+    "slot_type": "6x5",
+    "paylines": "集群支付",
+    "reels": "6",
+    "volatility": "高",
+    "symbols": ["免费游戏分散", "倍乘数", "4 高赔符号", "5 低赔符号"],
+    "RTP": "96%",
+    "maximum_exposure": "10,000x",
+    "Similar Games": ["60000", "60001", "60003"]
+  },
+  "th-th": {
+    "name": "เด็กชายผู้มั่งคั่ง",
+    "game_type": "สล็อต",
+    "release_on": "มกราคม, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["ชนะเกลือกกลิ้ง", "ตัวคูณสุ่ม", "รีทริกเกอร์เกมฟรี"],
+    "slot_type": "6x5",
+    "paylines": "คลัสเตอร์จ่าย",
+    "reels": "6",
+    "volatility": "สูง",
+    "symbols": ["กระจายเกมฟรี", "ตัวคูณ", "4 สัญลักษณ์การจ่ายเงินสูง", "5 สัญลักษณ์การจ่ายเงินต่ำ"], 
+    "RTP": "96%",
+    "maximum_exposure": "10,000x",
+    "Similar Games": ["60000", "60001", "60003"]
+  },
+  "ms-ms": {
+    "name": "Wealthy Kiddo",
+    "game_type": "Slot",
+    "release_on": "Januari, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Kemenangan Terus-menerus", "Pengganda Rawak", "Pencetus Semula Permainan Percuma"],
+    "slot_type": "6x5",
+    "paylines": "Bayaran Kluster",
+    "reels": "6",
+    "volatility": "Tinggi",
+    "symbols": ["Scatter Permainan Percuma", "Pengganda", "4 Simbol Bayaran Tinggi", "5 Simbol Bayaran Rendah"],
+    "RTP": "96%",
+    "maximum_exposure": "10,000x",
+    "Similar Games": ["60000", "60001", "60003"]
+  }
+}

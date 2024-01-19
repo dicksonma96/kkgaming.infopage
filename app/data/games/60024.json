@@ -1,0 +1,62 @@
+{
+  "en-us": {
+    "name": "Dim Sum Twins",
+    "game_type": "Slot",
+    "release_on": "January, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Free Game Pick", "Wild Reel", "Wild Multiplier"],
+    "slot_type": "6x5",
+    "paylines": "60",
+    "reels": "6",
+    "volatility": "Medium-High",
+    "symbols": ["Wild", "4 High Payout Symbols", "6 Low Payout Symbols"],
+    "RTP": "96%",
+    "maximum_exposure": "2,704x",
+    "Similar Games": ["60002", "60011", "60023"]
+  },
+  "zh-cn": {
+    "name": "点心双宝",
+    "game_type": "老虎机",
+    "release_on": "1 月, 2024",
+    "compatibility": ["Windows", "iOS", "安卓", "H5"],
+    "feature": ["免费游戏选择", "百搭卷轴", "百搭倍乘数"],
+    "slot_type": "6x5",
+    "paylines": "60",
+    "reels": "6",
+    "volatility": "中高",
+    "symbols": ["百搭", "4 高赔符号", "6 低赔符号"],
+    "RTP": "96%",
+    "maximum_exposure": "2,704x",
+    "Similar Games": ["60002", "60011", "60023"]
+  },
+  "th-th": {
+    "name": "ติ่มซำ ทวินส์",
+    "game_type": "สล็อต",
+    "release_on": "มกราคม, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["เลือกเกมฟรี", "รอกป่า", "ตัวทวีคูณไวลด์"],
+    "slot_type": "6x5",
+    "paylines": "60",
+    "reels": "6",
+    "volatility": "ปานกลางสูง",
+    "symbols": ["ไวล์ด", "4 สัญลักษณ์การจ่ายเงินสูง", "6 สัญลักษณ์การจ่ายเงินต่ำ"], 
+    "RTP": "96%",
+    "maximum_exposure": "2,704x",
+    "Similar Games": ["60002", "60011", "60023"]
+  },
+  "ms-ms": {
+    "name": "Dim Sum Twins",
+    "game_type": "Slot",
+    "release_on": "Januari, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Pilihan Permainan Percuma", "Kekili Liar", "Pengganda Liar"],
+    "slot_type": "6x5",
+    "paylines": "60",
+    "reels": "6",
+    "volatility": "Sederhana-Tinggi",
+    "symbols": ["Liar", "4 Simbol Bayaran Tinggi", "6 Simbol Bayaran Rendah"],
+    "RTP": "96%",
+    "maximum_exposure": "2,704x",
+    "Similar Games": ["60002", "60011", "60023"]
+  }
+}
