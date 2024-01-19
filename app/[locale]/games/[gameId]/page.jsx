@@ -32,7 +32,9 @@ export async function generateMetadata({ params }) {
 function GameDetailContent({ details, similarGames, imgUrl }) {
   const t = useTranslations("game-detail");
   const t2 = useTranslations("buttons");
-  const demoUrl = `https://smakermicsvc.back138.com/api/opgateway/v1/op/demo/LaunchGame?opId=kkgaming&currency=Fun&gameCode=${details.id}`;
+  const demoUrl = `https://smakermicsvc.back138.com/api/opgateway/v1/op/demo/LaunchGame?opId=kkgaming&currency=Fun&lang=${useLocale()}&gameCode=${
+    details.id
+  }&playerId=default`;
 
   return (
     <>
