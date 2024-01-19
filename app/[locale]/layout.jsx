@@ -4,6 +4,7 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 import IframePopup from "./components/iframePopup";
 import ResponsiblePopup from "./components/responsiblePopup";
+import ProgressBarProvider from "./components/progressBarProvider";
 import "./global.scss";
 
 const locales = ["en-us", "zh-cn", "th-th", "ms-ms"];
@@ -53,7 +54,7 @@ export default async function LocaleLayout({ children, params: { locale } }) {
       <body>
         <AppContextProvider>
           <Header />
-          {children}
+          <ProgressBarProvider>{children}</ProgressBarProvider>
           <Footer />
           <IframePopup />
           <ResponsiblePopup />
