@@ -5,7 +5,6 @@ import Footer from "./components/footer";
 import IframePopup from "./components/iframePopup";
 import ResponsiblePopup from "./components/responsiblePopup";
 import "./global.scss";
-import PageLoader from "./components/pageLoader";
 
 const locales = ["en-us", "zh-cn", "th-th", "ms-ms"];
 
@@ -54,7 +53,6 @@ export default async function LocaleLayout({ children, params: { locale } }) {
       <body>
         <AppContextProvider>
           <Header />
-          <PageLoader />
           {children}
           <Footer />
           <IframePopup />

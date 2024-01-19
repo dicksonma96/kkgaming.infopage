@@ -4,6 +4,7 @@ import GameListing from "../components/gameListing";
 import GameBanner from "../components/gameBanner";
 import GetGamelist from "../utils/getGamelist";
 import "./style.scss";
+import PageLoader from "../components/pageLoader";
 
 export async function generateMetadata({ params: { locale } }) {
   const messages = (await import(`../../../messages/${locale}.json`)).default;
@@ -38,6 +39,7 @@ export default async function Games({ params: { locale }, searchParams }) {
 
   return (
     <main className="games colc">
+      <PageLoader />
       <GameBanner />
       <GameNavWrapper />
       <GameListing games={filteredGames()} />

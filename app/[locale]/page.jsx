@@ -6,6 +6,7 @@ import VisionMission from "./components/visionMission";
 import WhyOurBrand from "./components/whyOutBrand";
 import HomeGames from "./components/homeGames";
 import Contact from "./components/contact";
+import PageLoader from "./components/pageLoader";
 
 export async function generateMetadata({ params: { locale } }) {
   const messages = (await import(`../../messages/${locale}.json`)).default;
@@ -23,6 +24,7 @@ export async function generateMetadata({ params: { locale } }) {
 export default async function Home({ params }) {
   return (
     <main className="flex flex-col">
+      <PageLoader />
       <HomeBanner />
       <About />
       <Feature />
