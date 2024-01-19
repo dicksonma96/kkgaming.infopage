@@ -81,6 +81,10 @@ section {
   }
 }
 
+#nprogress .bar {
+  z-index: 99999 !important;
+}
+
 @media only screen and (max-width: 800px) {
   section {
     .content {

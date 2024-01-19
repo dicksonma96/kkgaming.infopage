@@ -17,7 +17,7 @@ import NewBadgeTh from "../../../assets/images/icons/badge-new-th.png";
 
 function GameCard({ game, imgUrl }) {
   const t = useTranslations("buttons");
-  const demoUrl = `https://smakermicsvc.back138.com/api/opgateway/v1/op/demo/LaunchGame?opId=kkgaming&currency=Fun&gameCode=${
+  const demoUrl = `https://smakermicsvc.back138.com/api/opgateway/v1/op/demo/LaunchGame?opId=kkgaming&currency=Fun&param7=${useLocale()}&gameCode=${
     game.GameId
   }&lang=${useLocale()}&playerId=default`;
   return (
