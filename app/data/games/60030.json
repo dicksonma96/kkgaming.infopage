@@ -9,10 +9,15 @@
     "paylines": "Cluster Pay",
     "reels": "6",
     "volatility": "High",
-    "symbols": ["Free Game Scatter", "Mystery Scatter", "5 High Payout Symbols", "5 Low Payout Symbols"],
+    "symbols": [
+      "Free Game Scatter",
+      "Mystery Scatter",
+      "5 High Payout Symbols",
+      "5 Low Payout Symbols"
+    ],
     "RTP": "96%",
     "maximum_exposure": "6,300x",
-    "Similar Games": ["60001", "60003", "60029]
+    "Similar Games": ["60001", "60003", "60029"]
   },
   "zh-cn": {
     "name": "财富彩票",
@@ -39,7 +44,12 @@
     "paylines": "คลัสเตอร์จ่าย",
     "reels": "6",
     "volatility": "สูง",
-    "symbols": ["กระจายเกมฟรี", "Mystery Scatter", "5 สัญลักษณ์การจ่ายเงินสูง", "5 สัญลักษณ์การจ่ายเงินต่ำ"], 
+    "symbols": [
+      "กระจายเกมฟรี",
+      "Mystery Scatter",
+      "5 สัญลักษณ์การจ่ายเงินสูง",
+      "5 สัญลักษณ์การจ่ายเงินต่ำ"
+    ],
     "RTP": "96%",
     "maximum_exposure": "6,300x",
     "Similar Games": ["60001", "60003", "60029"]
@@ -49,12 +59,21 @@
     "game_type": "Slot",
     "release_on": "Mac, 2024",
     "compatibility": ["Windows", "iOS", "Android", "H5"],
-    "feature": ["Peningkatan Simbol", "Pengganda Rawak", "Pencetus Semula Permainan Percuma"],
+    "feature": [
+      "Peningkatan Simbol",
+      "Pengganda Rawak",
+      "Pencetus Semula Permainan Percuma"
+    ],
     "slot_type": "6x5",
     "paylines": "Bayaran Kluster",
     "reels": "6",
     "volatility": "Tinggi",
-    "symbols": ["Scatter Permainan Percuma", "Scatter Misteri", "5 Simbol Bayaran Tinggi", "5 Simbol Bayaran Rendah"],
+    "symbols": [
+      "Scatter Permainan Percuma",
+      "Scatter Misteri",
+      "5 Simbol Bayaran Tinggi",
+      "5 Simbol Bayaran Rendah"
+    ],
     "RTP": "96%",
     "maximum_exposure": "6,300x",
     "Similar Games": ["60001", "60003", "60029"]
