@@ -1,0 +1,62 @@
+{
+  "en-us": {
+    "name": "Lotto Fortune",
+    "game_type": "Slot",
+    "release_on": "March, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Symbol Upgrade", "Random Multiplier", "Free Game Retrigger"],
+    "slot_type": "6x5",
+    "paylines": "Cluster Pay",
+    "reels": "6",
+    "volatility": "High",
+    "symbols": ["Free Game Scatter", "Mystery Scatter", "5 High Payout Symbols", "5 Low Payout Symbols"],
+    "RTP": "96%",
+    "maximum_exposure": "6,300x",
+    "Similar Games": ["60001", "60003", "60029]
+  },
+  "zh-cn": {
+    "name": "财富彩票",
+    "game_type": "老虎机",
+    "release_on": "3 月, 2024",
+    "compatibility": ["Windows", "iOS", "安卓", "H5"],
+    "feature": ["符号升级", "随机倍乘数", "免费游戏再触发"],
+    "slot_type": "6x5",
+    "paylines": "集群支付",
+    "reels": "6",
+    "volatility": "高",
+    "symbols": ["免费游戏分散", "神秘分散", "5 高赔符号", "5 低赔符号"],
+    "RTP": "96%",
+    "maximum_exposure": "6,300x",
+    "Similar Games": ["60001", "60003", "60029"]
+  },
+  "th-th": {
+    "name": "โชคดีในลอตโต้",
+    "game_type": "สล็อต",
+    "release_on": "มีนาคม, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["อัพเกรดสัญลักษณ์", "ตัวคูณสุ่ม", "รีทริกเกอร์เกมฟรี"],
+    "slot_type": "6x5",
+    "paylines": "คลัสเตอร์จ่าย",
+    "reels": "6",
+    "volatility": "สูง",
+    "symbols": ["กระจายเกมฟรี", "Mystery Scatter", "5 สัญลักษณ์การจ่ายเงินสูง", "5 สัญลักษณ์การจ่ายเงินต่ำ"], 
+    "RTP": "96%",
+    "maximum_exposure": "6,300x",
+    "Similar Games": ["60001", "60003", "60029"]
+  },
+  "ms-ms": {
+    "name": "Lotto Fortune",
+    "game_type": "Slot",
+    "release_on": "Mac, 2024",
+    "compatibility": ["Windows", "iOS", "Android", "H5"],
+    "feature": ["Peningkatan Simbol", "Pengganda Rawak", "Pencetus Semula Permainan Percuma"],
+    "slot_type": "6x5",
+    "paylines": "Bayaran Kluster",
+    "reels": "6",
+    "volatility": "Tinggi",
+    "symbols": ["Scatter Permainan Percuma", "Scatter Misteri", "5 Simbol Bayaran Tinggi", "5 Simbol Bayaran Rendah"],
+    "RTP": "96%",
+    "maximum_exposure": "6,300x",
+    "Similar Games": ["60001", "60003", "60029"]
+  }
+}

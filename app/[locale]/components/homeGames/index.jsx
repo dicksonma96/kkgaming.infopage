@@ -30,14 +30,13 @@ function HomeGames() {
 }
 
 async function GameList() {
-  await setTimeoutPromise(2000);
   const games = await GetGamelist(useLocale());
   const filteredGame = () => {
-    return games.Game.slice(0, 4);
+    return games?.Game.slice(0, 4);
   };
   return (
     <>
-      {filteredGame().map((game, index) => {
+      {filteredGame()?.map((game, index) => {
         let url = games.ThumbnailPath;
         return <GameCard key={index} game={game} imgUrl={url} />;
       })}
